@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Appad Java Android</string>
+    <string-array name="report_reasons">
+        <item>Nội dung bản quyền</item>
+        <item>Nội dung không phù hợp</item>
+        <item>Chất lượng âm thanh kém</item>
+        <item>Thông tin sai lệch</item>
+        <item>Khác</item>
+    </string-array>
+</resources>

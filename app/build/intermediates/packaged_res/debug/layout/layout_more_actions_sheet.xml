@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_background"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtMoreSongTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Song Title"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/btnAddToPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="➕  Thêm vào Playlist cá nhân"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/btnViewArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="🎤  Xem Nghệ sĩ"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/btnViewAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="💿  Xem Album"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/btnReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="🚩  Báo cáo bài hát"
+        android:textColor="#EF5350"
+        android:textSize="16sp"
+        android:background="?attr/selectableItemBackground"/>
+
+</LinearLayout>

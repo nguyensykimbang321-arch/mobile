@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".MusicApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.LibraryActivity" />
+        <activity android:name=".activities.FullPlayerActivity" />
+        <activity android:name=".activities.ArtistDetailActivity" />
+        <activity android:name=".activities.AlbumDetailActivity" />
+        <activity android:name=".activities.NotificationActivity" />
+        <activity android:name=".activities.UploadActivity" />
+        <activity android:name=".activities.PremiumActivity" />
+        <activity android:name=".activities.EditProfileActivity" />
+        <activity android:name=".activities.DepositActivity" />
+        <activity android:name=".activities.ChangePasswordActivity" />
+        <activity android:name=".activities.ArtistDashboardActivity" />
+        <activity android:name=".activities.ManageSongsActivity" />
+        <activity android:name=".activities.WithdrawActivity" />
+        <activity android:name=".activities.TransactionHistoryActivity" />
+        <activity android:name=".activities.PlaylistDetailActivity" />
+        <activity android:name=".activities.AdminActivity" />
+        <activity android:name=".activities.AdminTransactionsActivity" />
+        <activity android:name=".activities.AdminWithdrawalsActivity" />
+        <activity android:name=".activities.AdminUsersActivity" />
+        <activity android:name=".activities.ManageAlbumsActivity" />
+        <activity android:name=".activities.ManageMembershipActivity" />
+        <activity android:name=".activities.EditSongActivity" />
+        <activity android:name=".activities.EditAlbumActivity" />
+        <activity android:name=".activities.AdminBroadcastActivity" />
+        <activity android:name=".activities.AdminArtistApprovalActivity" />
+        <activity android:name=".activities.GenreDetailActivity" />
+        <activity android:name=".activities.WalletActivity" />
+        <activity android:name=".activities.PurchasedSongsActivity" />
+        <activity android:name=".activities.AdminAlbumsActivity" />
+        <activity android:name=".activities.AdminSongsActivity" />
+        <activity android:name=".activities.AdminEditSongActivity" />
+        <activity android:name=".activities.AdminEditAlbumActivity" />
+        <activity android:name=".activities.AdminAnalyticsActivity" />
+        <activity android:name=".activities.AdminMembershipActivity" />
+        <activity android:name=".activities.AdminPremiumPayoutActivity" />
+        <activity android:name=".activities.MembershipHistoryActivity" />
+        <activity android:name=".activities.ArtistReviewsActivity" />
+        <activity android:name=".activities.AdminReviewsActivity" />
+        <activity android:name=".activities.SharedPlaylistActivity" />
+
+        <service 
+            android:name=".services.MusicService"
+            android:stopWithTask="true" />
+
+    </application>
+</manifest>

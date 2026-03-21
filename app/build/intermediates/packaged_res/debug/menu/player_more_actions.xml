@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_heart_outline"
+        android:title="Yêu thích" />
+        
+    <item
+        android:id="@+id/action_lyrics"
+        android:icon="@drawable/ic_musical_notes"
+        android:title="Lời bài hát" />
+        
+    <item
+        android:id="@+id/action_comments"
+        android:icon="@drawable/ic_comment"
+        android:title="Bình luận" />
+        
+    <item
+        android:id="@+id/action_queue"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Danh sách phát" />
+        
+    <item
+        android:id="@+id/action_sleep_timer"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:title="Hẹn giờ tắt" />
+        
+    <item
+        android:id="@+id/action_add_to_playlist"
+        android:icon="@drawable/ic_add"
+        android:title="Thêm vào Playlist" />
+        
+    <item
+        android:id="@+id/action_download"
+        android:icon="@android:drawable/stat_sys_download"
+        android:title="Tải nhạc" />
+        
+    <item
+        android:id="@+id/action_report"
+        android:icon="@android:drawable/ic_menu_report_image"
+        android:title="Báo cáo vi phạm" />
+        
+</menu>

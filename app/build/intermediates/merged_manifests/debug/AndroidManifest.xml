@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appad"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.appad.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.appad.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.appad.MusicApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.appad.activities.LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.appad.activities.MainActivity" />
+        <activity android:name="com.appad.activities.RegisterActivity" />
+        <activity android:name="com.appad.activities.LibraryActivity" />
+        <activity android:name="com.appad.activities.FullPlayerActivity" />
+        <activity android:name="com.appad.activities.ArtistDetailActivity" />
+        <activity android:name="com.appad.activities.AlbumDetailActivity" />
+        <activity android:name="com.appad.activities.NotificationActivity" />
+        <activity android:name="com.appad.activities.UploadActivity" />
+        <activity android:name="com.appad.activities.PremiumActivity" />
+        <activity android:name="com.appad.activities.EditProfileActivity" />
+        <activity android:name="com.appad.activities.DepositActivity" />
+        <activity android:name="com.appad.activities.ChangePasswordActivity" />
+        <activity android:name="com.appad.activities.ArtistDashboardActivity" />
+        <activity android:name="com.appad.activities.ManageSongsActivity" />
+        <activity android:name="com.appad.activities.WithdrawActivity" />
+        <activity android:name="com.appad.activities.TransactionHistoryActivity" />
+        <activity android:name="com.appad.activities.PlaylistDetailActivity" />
+        <activity android:name="com.appad.activities.AdminActivity" />
+        <activity android:name="com.appad.activities.AdminTransactionsActivity" />
+        <activity android:name="com.appad.activities.AdminWithdrawalsActivity" />
+        <activity android:name="com.appad.activities.AdminUsersActivity" />
+        <activity android:name="com.appad.activities.ManageAlbumsActivity" />
+        <activity android:name="com.appad.activities.ManageMembershipActivity" />
+        <activity android:name="com.appad.activities.EditSongActivity" />
+        <activity android:name="com.appad.activities.EditAlbumActivity" />
+        <activity android:name="com.appad.activities.AdminBroadcastActivity" />
+        <activity android:name="com.appad.activities.AdminArtistApprovalActivity" />
+        <activity android:name="com.appad.activities.GenreDetailActivity" />
+        <activity android:name="com.appad.activities.WalletActivity" />
+        <activity android:name="com.appad.activities.PurchasedSongsActivity" />
+        <activity android:name="com.appad.activities.AdminAlbumsActivity" />
+        <activity android:name="com.appad.activities.AdminSongsActivity" />
+        <activity android:name="com.appad.activities.AdminEditSongActivity" />
+        <activity android:name="com.appad.activities.AdminEditAlbumActivity" />
+        <activity android:name="com.appad.activities.AdminAnalyticsActivity" />
+        <activity android:name="com.appad.activities.AdminMembershipActivity" />
+        <activity android:name="com.appad.activities.AdminPremiumPayoutActivity" />
+        <activity android:name="com.appad.activities.MembershipHistoryActivity" />
+        <activity android:name="com.appad.activities.ArtistReviewsActivity" />
+        <activity android:name="com.appad.activities.AdminReviewsActivity" />
+        <activity android:name="com.appad.activities.SharedPlaylistActivity" />
+
+        <service
+            android:name="com.appad.services.MusicService"
+            android:stopWithTask="true" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.appad.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

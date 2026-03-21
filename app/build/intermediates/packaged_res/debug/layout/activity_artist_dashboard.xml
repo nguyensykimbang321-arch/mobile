@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1F1F1F"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_back"
+                app:tint="#FFFFFF" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:text="Artist Dashboard"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnRefresh"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@android:drawable/ic_popup_sync"
+                app:tint="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Removed SwipeRefreshLayout as it causes dependency errors -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:paddingBottom="100dp">
+
+                    <!-- Wallet Card with Gradient -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardCornerRadius="24dp"
+                        app:cardElevation="4dp"
+                        app:strokeWidth="0dp"
+                        android:layout_marginBottom="24dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="24dp"
+                            android:background="@drawable/bg_gradient_purple">
+
+                            <!-- Header -->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical"
+                                android:layout_marginBottom="16dp">
+
+                                <FrameLayout
+                                    android:layout_width="36dp"
+                                    android:layout_height="36dp"
+                                    android:background="@drawable/circle_button_bg"
+                                    android:backgroundTint="#FFFFFF33">
+
+                                    <ImageView
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_wallet_outline"
+                                        app:tint="#FFFFFFFF" />
+                                </FrameLayout>
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginStart="12dp"
+                                    android:text="SỐ DƯ KHẢ DỤNG"
+                                    android:textColor="#FFFFFFCC"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:letterSpacing="0.1" />
+
+                                <ImageButton
+                                    android:id="@+id/btnWithdrawHistory"
+                                    android:layout_width="36dp"
+                                    android:layout_height="36dp"
+                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                    android:src="@android:drawable/ic_menu_recent_history"
+                                    app:tint="#FFFFFF99" />
+                            </LinearLayout>
+
+                            <!-- Balance -->
+                            <TextView
+                                android:id="@+id/txtWalletBalance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0 ₫"
+                                android:textColor="#FFFFFF"
+                                android:textSize="36sp"
+                                android:textStyle="bold"
+                                android:layout_marginBottom="20dp" />
+
+                            <!-- Divider -->
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#FFFFFF1A"
+                                android:layout_marginBottom="20dp" />
+
+                            <!-- Footer -->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Chờ duyệt"
+                                        android:textColor="#FFFFFFB3"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:id="@+id/txtPendingAmount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="0đ"
+                                        android:textColor="#FFFFFF"
+                                        android:textSize="16sp"
+                                        android:textStyle="bold"
+                                        android:layout_marginTop="4dp" />
+                                </LinearLayout>
+
+                                <Button
+                                    android:id="@+id/btnWithdraw"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="44dp"
+                                    android:text="Rút tiền"
+                                    android:textColor="#8B5CF6"
+                                    android:textStyle="bold"
+                                    android:backgroundTint="#FFFFFF"
+                                    app:cornerRadius="14dp"
+                                    android:paddingHorizontal="20dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Stats Grid -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="24dp">
+
+                        <!-- Songs -->
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="0dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="6dp"
+                            app:cardBackgroundColor="#1A1A1A"
+                            app:cardCornerRadius="20dp"
+                            app:strokeWidth="1dp"
+                            app:strokeColor="#1AFFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="12dp">
+
+                                <FrameLayout
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:background="@drawable/circle_button_bg"
+                                    android:backgroundTint="#3B82F620">
+
+                                    <ImageView
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_mic_badge"
+                                        app:tint="#3B82F6" />
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/txtStatSongs"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_marginTop="8dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bài hát"
+                                    android:textColor="#888888"
+                                    android:textSize="11sp" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <!-- Purchases -->
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="0dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:layout_marginHorizontal="6dp"
+                            app:cardBackgroundColor="#1A1A1A"
+                            app:cardCornerRadius="20dp"
+                            app:strokeWidth="1dp"
+                            app:strokeColor="#1AFFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="12dp">
+
+                                <FrameLayout
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:background="@drawable/circle_button_bg"
+                                    android:backgroundTint="#10B98120">
+
+                                    <ImageView
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_people_badge"
+                                        app:tint="#10B981" />
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/txtStatPurchases"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_marginTop="8dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lượt mua"
+                                    android:textColor="#888888"
+                                    android:textSize="11sp" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <!-- Listens -->
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="0dp"
+                            android:layout_height="110dp"
+                            android:layout_weight="1"
+                            android:layout_marginStart="6dp"
+                            app:cardBackgroundColor="#1A1A1A"
+                            app:cardCornerRadius="20dp"
+                            app:strokeWidth="1dp"
+                            app:strokeColor="#1AFFFFFF">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:padding="12dp">
+
+                                <FrameLayout
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:background="@drawable/circle_button_bg"
+                                    android:backgroundTint="#F59E0B20">
+
+                                    <ImageView
+                                        android:layout_width="18dp"
+                                        android:layout_height="18dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_headset_outline"
+                                        app:tint="#F59E0B" />
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/txtStatListens"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_marginTop="8dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lượt nghe"
+                                    android:textColor="#888888"
+                                    android:textSize="11sp" />
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+
+                    <!-- Revenue Section Header -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="16dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Hiệu suất doanh thu"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/btnRevenueDetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chi tiết"
+                            android:textColor="#8B5CF6"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!-- Revenue Card -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="#1A1A1A"
+                        app:cardCornerRadius="20dp"
+                        app:strokeWidth="1dp"
+                        app:strokeColor="#1AFFFFFF"
+                        android:layout_marginBottom="24dp">
+
+                        <LinearLayout
+                            android:id="@+id/revenueContainer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+                            <!-- Empty state or revenue items will be added dynamically -->
+                            <TextView
+                                android:id="@+id/txtNoRevenue"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Chưa có dữ liệu doanh thu gần đây"
+                                android:textColor="#555555"
+                                android:textSize="13sp"
+                                android:gravity="center"
+                                android:padding="30dp" />
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- Quick Actions Header -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quản lý Studio"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="16dp" />
+
+                    <!-- Actions Grid -->
+                    <androidx.gridlayout.widget.GridLayout
+                        android:id="@+id/actionsGrid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:columnCount="3"
+                        app:rowCount="3"
+                        app:useDefaultMargins="true">
+
+                        <!-- Row 1 -->
+                        <include layout="@layout/item_dashboard_action"
+                            android:id="@+id/actionSongs"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_column="0"
+                            app:layout_row="0"
+                            app:layout_columnWeight="1" />
+
+                        <include layout="@layout/item_dashboard_action"
+                            android:id="@+id/actionAlbums"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_column="1"
+                            app:layout_row="0"
+                            app:layout_columnWeight="1" />
+
+                        <include layout="@layout/item_dashboard_action"
+                            android:id="@+id/actionReviews"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_column="2"
+                            app:layout_row="0"
+                            app:layout_columnWeight="1" />
+
+                        <!-- Row 2 -->
+                        <include layout="@layout/item_dashboard_action"
+                            android:id="@+id/actionProfile"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_column="0"
+                            app:layout_row="1"
+                            app:layout_columnWeight="1" />
+
+                        <include layout="@layout/item_dashboard_action"
+                            android:id="@+id/actionMembership"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_column="1"
+                            app:layout_row="1"
+                            app:layout_columnWeight="1" />
+
+                        <include layout="@layout/item_dashboard_action"
+                            android:id="@+id/actionBank"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_column="2"
+                            app:layout_row="1"
+                            app:layout_columnWeight="1" />
+
+                        <!-- Row 3 -->
+                        <include layout="@layout/item_dashboard_action"
+                            android:id="@+id/actionHistory"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_column="0"
+                            app:layout_row="2"
+                            app:layout_columnWeight="1" />
+
+
+                    </androidx.gridlayout.widget.GridLayout>
+
+                    <View android:layout_width="1dp" android:layout_height="100dp" />
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/miniPlayerContainer"
+        layout="@layout/layout_mini_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Loading Overlay -->
+    <FrameLayout
+        android:id="@+id/loadingOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC121212"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ProgressBar
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:indeterminateTint="#8B5CF6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đang chuẩn bị studio..."
+                android:textColor="#888888"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

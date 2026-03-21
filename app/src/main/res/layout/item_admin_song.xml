@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="#1A1A1A"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgSongCover"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_song"
+            app:shapeAppearanceOverlay="@style/RoundedImage8" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSongTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Song Title"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/txtSongArtist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎤 Artist Name"
+                android:textColor="#888888"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:maxLines="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="4dp">
+                
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@android:drawable/ic_media_play"
+                    app:tint="#888888" />
+                
+                <TextView
+                    android:id="@+id/txtSongPlays"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#666666"
+                    android:textSize="11sp"
+                    android:layout_marginStart="4dp" />
+                
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="3dp"
+                    android:background="#33FFFFFF"
+                    android:layout_marginHorizontal="8dp" />
+
+                <TextView
+                    android:id="@+id/txtSongGenre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Genre"
+                    android:textColor="#666666"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnEditSong"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:background="@drawable/bg_admin_menu_icon_rounded"
+                android:src="@android:drawable/ic_menu_edit"
+                app:tint="#8b5cf6"
+                android:backgroundTint="#208b5cf6" />
+
+            <ImageButton
+                android:id="@+id/btnDeleteSong"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_admin_menu_icon_rounded"
+                android:src="@android:drawable/ic_menu_delete"
+                app:tint="#EF4444"
+                android:backgroundTint="#15EF4444" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

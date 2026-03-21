@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- Icon -->
+    <FrameLayout
+        android:id="@+id/revenueIconContainer"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_button_bg"
+        android:backgroundTint="#3B82F615">
+
+        <ImageView
+            android:id="@+id/revenueIcon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_menu_agenda"
+            app:tint="#3B82F6" />
+    </FrameLayout>
+
+    <!-- Info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/txtRevenueType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mua bài hát"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtRevenueCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 giao dịch thành công"
+            android:textColor="#888888"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <!-- Amount -->
+    <TextView
+        android:id="@+id/txtRevenueAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+0đ"
+        android:textColor="#10B981"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</LinearLayout>

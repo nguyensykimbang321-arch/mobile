@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                    <!-- Premium Header -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="32dp"
+                        android:background="@drawable/bg_admin_header_gradient">
+
+                        <LinearLayout
+                            android:id="@+id/headerTop"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:paddingHorizontal="20dp"
+                            android:paddingTop="48dp"
+                            android:layout_marginBottom="24dp">
+                            
+                            <ImageView
+                                android:id="@+id/btnProfile"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_nav_profile"
+                                app:tint="#FFFFFF" />
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Admin Control"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:gravity="center" />
+
+                            <ImageView
+                                android:id="@+id/btnSettings"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:src="@android:drawable/ic_menu_manage"
+                                app:tint="#FFFFFF" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/welcomeBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/headerTop"
+                            android:orientation="horizontal"
+                            android:paddingHorizontal="20dp"
+                            android:gravity="bottom"
+                            android:layout_marginBottom="24dp">
+                            
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hệ thống vận hành tốt,"
+                                    android:textColor="#99FFFFFF"
+                                    android:textSize="14sp" />
+                                <TextView
+                                    android:id="@+id/txtAdminName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Administrator"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="26sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#3310B981"
+                                android:paddingHorizontal="12dp"
+                                android:paddingVertical="6dp"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical">
+                                <View
+                                    android:layout_width="8dp"
+                                    android:layout_height="8dp"
+                                    android:background="@drawable/circle_success_bg"
+                                    android:backgroundTint="#10B981"
+                                    android:layout_marginEnd="6dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="LIVE"
+                                    android:textColor="#10B981"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!-- Highlight Stats -->
+                        <LinearLayout
+                            android:id="@+id/highlightStats"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/welcomeBox"
+                            android:layout_marginHorizontal="20dp"
+                            android:paddingVertical="18dp"
+                            android:background="@drawable/bg_stat_card_glass"
+                            android:orientation="horizontal">
+                            
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:gravity="center">
+                                <TextView
+                                    android:id="@+id/txtTotalPlays"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lượt nghe"
+                                    android:textColor="#80FFFFFF"
+                                    android:textSize="11sp" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:background="#33FFFFFF" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:gravity="center">
+                                <TextView
+                                    android:id="@+id/txtNewUsers"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="+0"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="User mới (tháng)"
+                                    android:textColor="#80FFFFFF"
+                                    android:textSize="11sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <!-- Main Content -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="20dp"
+                        android:paddingTop="24dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="THỐNG KÊ CHI TIẾT"
+                            android:textColor="#888888"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:letterSpacing="0.1"
+                            android:layout_marginBottom="16dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginBottom="24dp">
+
+                            <!-- Row 1 -->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginBottom="12dp">
+
+                                <include 
+                                    layout="@layout/item_admin_stat_panel" 
+                                    android:id="@+id/panelUsers"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginEnd="6dp" />
+                                    
+                                <include 
+                                    layout="@layout/item_admin_stat_panel" 
+                                    android:id="@+id/panelSongs"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginStart="6dp" />
+                            </LinearLayout>
+
+                            <!-- Row 2 -->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <include 
+                                    layout="@layout/item_admin_stat_panel" 
+                                    android:id="@+id/panelAlbums"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginEnd="6dp" />
+                                    
+                                <include 
+                                    layout="@layout/item_admin_stat_panel" 
+                                    android:id="@+id/panelAnalytics"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginStart="6dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="QUẢN LÝ NỘI DUNG"
+                            android:textColor="#888888"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:letterSpacing="0.1"
+                            android:layout_marginBottom="16dp" />
+
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuUsers" />
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuSongs" />
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuAlbums" />
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuReviews" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TÀI CHÍNH &amp; GIAO DỊCH"
+                            android:textColor="#888888"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:letterSpacing="0.1"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginBottom="16dp" />
+
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuDeposits" />
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuWithdrawals" />
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuMembership" />
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuPayout" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="HỆ THỐNG &amp; CẤU HÌNH"
+                            android:textColor="#888888"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:letterSpacing="0.1"
+                            android:layout_marginTop="24dp"
+                            android:layout_marginBottom="16dp" />
+
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuBroadcast" />
+                        <include layout="@layout/item_admin_menu_card" android:id="@+id/menuApproveArtist" />
+
+                        <View android:layout_width="match_parent" android:layout_height="100dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <include
+        android:id="@+id/miniPlayerContainer"
+        layout="@layout/layout_mini_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

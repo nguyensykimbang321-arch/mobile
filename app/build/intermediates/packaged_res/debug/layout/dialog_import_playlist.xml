@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_bottom_sheet"
+    android:backgroundTint="#2A2A2A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập mã Playlist"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dán mã chia sẻ vào đây để khám phá playlist snapshot."
+        android:textColor="#AAAAAA"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/edtImportCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã tại đây..."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#666666"
+        android:background="@drawable/bg_input_field"
+        android:padding="16dp"
+        android:maxLines="3"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/btnConfirmImport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khám phá"
+        android:backgroundTint="@color/vibrant_purple"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+
+</LinearLayout>
