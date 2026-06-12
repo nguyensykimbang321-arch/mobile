@@ -9,23 +9,23 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:5:5-67
-11-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:5:22-64
+11-->E:\tam\mobile\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\tam\mobile\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-12-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:6:5-77
-12-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:6:22-74
+12-->E:\tam\mobile\app\src\main\AndroidManifest.xml:6:5-77
+12-->E:\tam\mobile\app\src\main\AndroidManifest.xml:6:22-74
 13    <uses-permission android:name="android.permission.WAKE_LOCK" />
-13-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:7:5-68
-13-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:7:22-65
+13-->E:\tam\mobile\app\src\main\AndroidManifest.xml:7:5-68
+13-->E:\tam\mobile\app\src\main\AndroidManifest.xml:7:22-65
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:8:5-81
-14-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:8:22-78
+14-->E:\tam\mobile\app\src\main\AndroidManifest.xml:8:5-81
+14-->E:\tam\mobile\app\src\main\AndroidManifest.xml:8:22-78
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:9:5-80
-15-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:9:22-77
+15-->E:\tam\mobile\app\src\main\AndroidManifest.xml:9:5-80
+15-->E:\tam\mobile\app\src\main\AndroidManifest.xml:9:22-77
 16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-16-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:10:5-77
-16-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:10:22-74
+16-->E:\tam\mobile\app\src\main\AndroidManifest.xml:10:5-77
+16-->E:\tam\mobile\app\src\main\AndroidManifest.xml:10:22-74
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 17-->[com.google.android.exoplayer:exoplayer-core:2.19.1] C:\Users\BANG\.gradle\caches\transforms-3\9a8b465cc4f078e4dcba79876cb4bae2\transformed\jetified-exoplayer-core-2.19.1\AndroidManifest.xml:24:5-79
 17-->[com.google.android.exoplayer:exoplayer-core:2.19.1] C:\Users\BANG\.gradle\caches\transforms-3\9a8b465cc4f078e4dcba79876cb4bae2\transformed\jetified-exoplayer-core-2.19.1\AndroidManifest.xml:24:22-76
@@ -42,175 +42,175 @@
 23-->[androidx.core:core:1.9.0] C:\Users\BANG\.gradle\caches\transforms-3\5fb000c41d4c895420173daaf7b6f0e7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 24
 25    <application
-25-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:12:5-77:19
+25-->E:\tam\mobile\app\src\main\AndroidManifest.xml:12:5-77:19
 26        android:name="com.appad.MusicApplication"
-26-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:13:9-41
+26-->E:\tam\mobile\app\src\main\AndroidManifest.xml:13:9-41
 27        android:allowBackup="true"
-27-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:14:9-35
+27-->E:\tam\mobile\app\src\main\AndroidManifest.xml:14:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.9.0] C:\Users\BANG\.gradle\caches\transforms-3\5fb000c41d4c895420173daaf7b6f0e7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 29        android:debuggable="true"
 30        android:extractNativeLibs="false"
 31        android:icon="@mipmap/ic_launcher"
-31-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:15:9-43
+31-->E:\tam\mobile\app\src\main\AndroidManifest.xml:15:9-43
 32        android:label="@string/app_name"
-32-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:16:9-41
+32-->E:\tam\mobile\app\src\main\AndroidManifest.xml:16:9-41
 33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:17:9-54
+33-->E:\tam\mobile\app\src\main\AndroidManifest.xml:17:9-54
 34        android:supportsRtl="true"
-34-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:18:9-35
+34-->E:\tam\mobile\app\src\main\AndroidManifest.xml:18:9-35
 35        android:testOnly="true"
 36        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
-36-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:19:9-77
+36-->E:\tam\mobile\app\src\main\AndroidManifest.xml:19:9-77
 37        android:usesCleartextTraffic="true" >
-37-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:20:9-44
+37-->E:\tam\mobile\app\src\main\AndroidManifest.xml:20:9-44
 38        <activity
-38-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:22:9-29:20
+38-->E:\tam\mobile\app\src\main\AndroidManifest.xml:22:9-29:20
 39            android:name="com.appad.activities.LoginActivity"
-39-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:23:13-53
+39-->E:\tam\mobile\app\src\main\AndroidManifest.xml:23:13-53
 40            android:exported="true" >
-40-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:24:13-36
+40-->E:\tam\mobile\app\src\main\AndroidManifest.xml:24:13-36
 41            <intent-filter>
-41-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:25:13-28:29
+41-->E:\tam\mobile\app\src\main\AndroidManifest.xml:25:13-28:29
 42                <action android:name="android.intent.action.MAIN" />
-42-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:26:17-69
-42-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:26:25-66
+42-->E:\tam\mobile\app\src\main\AndroidManifest.xml:26:17-69
+42-->E:\tam\mobile\app\src\main\AndroidManifest.xml:26:25-66
 43
 44                <category android:name="android.intent.category.LAUNCHER" />
-44-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:27:17-77
-44-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:27:27-74
+44-->E:\tam\mobile\app\src\main\AndroidManifest.xml:27:17-77
+44-->E:\tam\mobile\app\src\main\AndroidManifest.xml:27:27-74
 45            </intent-filter>
 46        </activity>
 47        <activity android:name="com.appad.activities.MainActivity" />
-47-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:31:9-61
-47-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:31:19-58
+47-->E:\tam\mobile\app\src\main\AndroidManifest.xml:31:9-61
+47-->E:\tam\mobile\app\src\main\AndroidManifest.xml:31:19-58
 48        <activity android:name="com.appad.activities.RegisterActivity" />
-48-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:32:9-65
-48-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:32:19-62
+48-->E:\tam\mobile\app\src\main\AndroidManifest.xml:32:9-65
+48-->E:\tam\mobile\app\src\main\AndroidManifest.xml:32:19-62
 49        <activity android:name="com.appad.activities.LibraryActivity" />
-49-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:33:9-64
-49-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:33:19-61
+49-->E:\tam\mobile\app\src\main\AndroidManifest.xml:33:9-64
+49-->E:\tam\mobile\app\src\main\AndroidManifest.xml:33:19-61
 50        <activity android:name="com.appad.activities.FullPlayerActivity" />
-50-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:34:9-67
-50-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:34:19-64
+50-->E:\tam\mobile\app\src\main\AndroidManifest.xml:34:9-67
+50-->E:\tam\mobile\app\src\main\AndroidManifest.xml:34:19-64
 51        <activity android:name="com.appad.activities.ArtistDetailActivity" />
-51-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:35:9-69
-51-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:35:19-66
+51-->E:\tam\mobile\app\src\main\AndroidManifest.xml:35:9-69
+51-->E:\tam\mobile\app\src\main\AndroidManifest.xml:35:19-66
 52        <activity android:name="com.appad.activities.AlbumDetailActivity" />
-52-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:36:9-68
-52-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:36:19-65
+52-->E:\tam\mobile\app\src\main\AndroidManifest.xml:36:9-68
+52-->E:\tam\mobile\app\src\main\AndroidManifest.xml:36:19-65
 53        <activity android:name="com.appad.activities.NotificationActivity" />
-53-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:37:9-69
-53-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:37:19-66
+53-->E:\tam\mobile\app\src\main\AndroidManifest.xml:37:9-69
+53-->E:\tam\mobile\app\src\main\AndroidManifest.xml:37:19-66
 54        <activity android:name="com.appad.activities.UploadActivity" />
-54-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:38:9-63
-54-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:38:19-60
+54-->E:\tam\mobile\app\src\main\AndroidManifest.xml:38:9-63
+54-->E:\tam\mobile\app\src\main\AndroidManifest.xml:38:19-60
 55        <activity android:name="com.appad.activities.PremiumActivity" />
-55-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:39:9-64
-55-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:39:19-61
+55-->E:\tam\mobile\app\src\main\AndroidManifest.xml:39:9-64
+55-->E:\tam\mobile\app\src\main\AndroidManifest.xml:39:19-61
 56        <activity android:name="com.appad.activities.EditProfileActivity" />
-56-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:40:9-68
-56-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:40:19-65
+56-->E:\tam\mobile\app\src\main\AndroidManifest.xml:40:9-68
+56-->E:\tam\mobile\app\src\main\AndroidManifest.xml:40:19-65
 57        <activity android:name="com.appad.activities.DepositActivity" />
-57-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:41:9-64
-57-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:41:19-61
+57-->E:\tam\mobile\app\src\main\AndroidManifest.xml:41:9-64
+57-->E:\tam\mobile\app\src\main\AndroidManifest.xml:41:19-61
 58        <activity android:name="com.appad.activities.ChangePasswordActivity" />
-58-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:42:9-71
-58-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:42:19-68
+58-->E:\tam\mobile\app\src\main\AndroidManifest.xml:42:9-71
+58-->E:\tam\mobile\app\src\main\AndroidManifest.xml:42:19-68
 59        <activity android:name="com.appad.activities.ArtistDashboardActivity" />
-59-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:43:9-72
-59-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:43:19-69
+59-->E:\tam\mobile\app\src\main\AndroidManifest.xml:43:9-72
+59-->E:\tam\mobile\app\src\main\AndroidManifest.xml:43:19-69
 60        <activity android:name="com.appad.activities.ManageSongsActivity" />
-60-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:44:9-68
-60-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:44:19-65
+60-->E:\tam\mobile\app\src\main\AndroidManifest.xml:44:9-68
+60-->E:\tam\mobile\app\src\main\AndroidManifest.xml:44:19-65
 61        <activity android:name="com.appad.activities.WithdrawActivity" />
-61-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:45:9-65
-61-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:45:19-62
+61-->E:\tam\mobile\app\src\main\AndroidManifest.xml:45:9-65
+61-->E:\tam\mobile\app\src\main\AndroidManifest.xml:45:19-62
 62        <activity android:name="com.appad.activities.TransactionHistoryActivity" />
-62-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:46:9-75
-62-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:46:19-72
+62-->E:\tam\mobile\app\src\main\AndroidManifest.xml:46:9-75
+62-->E:\tam\mobile\app\src\main\AndroidManifest.xml:46:19-72
 63        <activity android:name="com.appad.activities.PlaylistDetailActivity" />
-63-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:47:9-71
-63-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:47:19-68
+63-->E:\tam\mobile\app\src\main\AndroidManifest.xml:47:9-71
+63-->E:\tam\mobile\app\src\main\AndroidManifest.xml:47:19-68
 64        <activity android:name="com.appad.activities.AdminActivity" />
-64-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:48:9-62
-64-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:48:19-59
+64-->E:\tam\mobile\app\src\main\AndroidManifest.xml:48:9-62
+64-->E:\tam\mobile\app\src\main\AndroidManifest.xml:48:19-59
 65        <activity android:name="com.appad.activities.AdminTransactionsActivity" />
-65-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:49:9-74
-65-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:49:19-71
+65-->E:\tam\mobile\app\src\main\AndroidManifest.xml:49:9-74
+65-->E:\tam\mobile\app\src\main\AndroidManifest.xml:49:19-71
 66        <activity android:name="com.appad.activities.AdminWithdrawalsActivity" />
-66-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:50:9-73
-66-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:50:19-70
+66-->E:\tam\mobile\app\src\main\AndroidManifest.xml:50:9-73
+66-->E:\tam\mobile\app\src\main\AndroidManifest.xml:50:19-70
 67        <activity android:name="com.appad.activities.AdminUsersActivity" />
-67-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:51:9-67
-67-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:51:19-64
+67-->E:\tam\mobile\app\src\main\AndroidManifest.xml:51:9-67
+67-->E:\tam\mobile\app\src\main\AndroidManifest.xml:51:19-64
 68        <activity android:name="com.appad.activities.ManageAlbumsActivity" />
-68-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:52:9-69
-68-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:52:19-66
+68-->E:\tam\mobile\app\src\main\AndroidManifest.xml:52:9-69
+68-->E:\tam\mobile\app\src\main\AndroidManifest.xml:52:19-66
 69        <activity android:name="com.appad.activities.ManageMembershipActivity" />
-69-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:53:9-73
-69-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:53:19-70
+69-->E:\tam\mobile\app\src\main\AndroidManifest.xml:53:9-73
+69-->E:\tam\mobile\app\src\main\AndroidManifest.xml:53:19-70
 70        <activity android:name="com.appad.activities.EditSongActivity" />
-70-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:54:9-65
-70-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:54:19-62
+70-->E:\tam\mobile\app\src\main\AndroidManifest.xml:54:9-65
+70-->E:\tam\mobile\app\src\main\AndroidManifest.xml:54:19-62
 71        <activity android:name="com.appad.activities.EditAlbumActivity" />
-71-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:55:9-66
-71-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:55:19-63
+71-->E:\tam\mobile\app\src\main\AndroidManifest.xml:55:9-66
+71-->E:\tam\mobile\app\src\main\AndroidManifest.xml:55:19-63
 72        <activity android:name="com.appad.activities.AdminBroadcastActivity" />
-72-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:56:9-71
-72-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:56:19-68
+72-->E:\tam\mobile\app\src\main\AndroidManifest.xml:56:9-71
+72-->E:\tam\mobile\app\src\main\AndroidManifest.xml:56:19-68
 73        <activity android:name="com.appad.activities.AdminArtistApprovalActivity" />
-73-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:57:9-76
-73-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:57:19-73
+73-->E:\tam\mobile\app\src\main\AndroidManifest.xml:57:9-76
+73-->E:\tam\mobile\app\src\main\AndroidManifest.xml:57:19-73
 74        <activity android:name="com.appad.activities.GenreDetailActivity" />
-74-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:58:9-68
-74-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:58:19-65
+74-->E:\tam\mobile\app\src\main\AndroidManifest.xml:58:9-68
+74-->E:\tam\mobile\app\src\main\AndroidManifest.xml:58:19-65
 75        <activity android:name="com.appad.activities.WalletActivity" />
-75-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:59:9-63
-75-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:59:19-60
+75-->E:\tam\mobile\app\src\main\AndroidManifest.xml:59:9-63
+75-->E:\tam\mobile\app\src\main\AndroidManifest.xml:59:19-60
 76        <activity android:name="com.appad.activities.PurchasedSongsActivity" />
-76-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:60:9-71
-76-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:60:19-68
+76-->E:\tam\mobile\app\src\main\AndroidManifest.xml:60:9-71
+76-->E:\tam\mobile\app\src\main\AndroidManifest.xml:60:19-68
 77        <activity android:name="com.appad.activities.AdminAlbumsActivity" />
-77-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:61:9-68
-77-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:61:19-65
+77-->E:\tam\mobile\app\src\main\AndroidManifest.xml:61:9-68
+77-->E:\tam\mobile\app\src\main\AndroidManifest.xml:61:19-65
 78        <activity android:name="com.appad.activities.AdminSongsActivity" />
-78-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:62:9-67
-78-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:62:19-64
+78-->E:\tam\mobile\app\src\main\AndroidManifest.xml:62:9-67
+78-->E:\tam\mobile\app\src\main\AndroidManifest.xml:62:19-64
 79        <activity android:name="com.appad.activities.AdminEditSongActivity" />
-79-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:63:9-70
-79-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:63:19-67
+79-->E:\tam\mobile\app\src\main\AndroidManifest.xml:63:9-70
+79-->E:\tam\mobile\app\src\main\AndroidManifest.xml:63:19-67
 80        <activity android:name="com.appad.activities.AdminEditAlbumActivity" />
-80-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:64:9-71
-80-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:64:19-68
+80-->E:\tam\mobile\app\src\main\AndroidManifest.xml:64:9-71
+80-->E:\tam\mobile\app\src\main\AndroidManifest.xml:64:19-68
 81        <activity android:name="com.appad.activities.AdminAnalyticsActivity" />
-81-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:65:9-71
-81-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:65:19-68
+81-->E:\tam\mobile\app\src\main\AndroidManifest.xml:65:9-71
+81-->E:\tam\mobile\app\src\main\AndroidManifest.xml:65:19-68
 82        <activity android:name="com.appad.activities.AdminMembershipActivity" />
-82-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:66:9-72
-82-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:66:19-69
+82-->E:\tam\mobile\app\src\main\AndroidManifest.xml:66:9-72
+82-->E:\tam\mobile\app\src\main\AndroidManifest.xml:66:19-69
 83        <activity android:name="com.appad.activities.AdminPremiumPayoutActivity" />
-83-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:67:9-75
-83-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:67:19-72
+83-->E:\tam\mobile\app\src\main\AndroidManifest.xml:67:9-75
+83-->E:\tam\mobile\app\src\main\AndroidManifest.xml:67:19-72
 84        <activity android:name="com.appad.activities.MembershipHistoryActivity" />
-84-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:68:9-74
-84-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:68:19-71
+84-->E:\tam\mobile\app\src\main\AndroidManifest.xml:68:9-74
+84-->E:\tam\mobile\app\src\main\AndroidManifest.xml:68:19-71
 85        <activity android:name="com.appad.activities.ArtistReviewsActivity" />
-85-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:69:9-70
-85-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:69:19-67
+85-->E:\tam\mobile\app\src\main\AndroidManifest.xml:69:9-70
+85-->E:\tam\mobile\app\src\main\AndroidManifest.xml:69:19-67
 86        <activity android:name="com.appad.activities.AdminReviewsActivity" />
-86-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:70:9-69
-86-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:70:19-66
+86-->E:\tam\mobile\app\src\main\AndroidManifest.xml:70:9-69
+86-->E:\tam\mobile\app\src\main\AndroidManifest.xml:70:19-66
 87        <activity android:name="com.appad.activities.SharedPlaylistActivity" />
-87-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:71:9-71
-87-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:71:19-68
+87-->E:\tam\mobile\app\src\main\AndroidManifest.xml:71:9-71
+87-->E:\tam\mobile\app\src\main\AndroidManifest.xml:71:19-68
 88
 89        <service
-89-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:73:9-75:43
+89-->E:\tam\mobile\app\src\main\AndroidManifest.xml:73:9-75:43
 90            android:name="com.appad.services.MusicService"
-90-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:74:13-50
+90-->E:\tam\mobile\app\src\main\AndroidManifest.xml:74:13-50
 91            android:stopWithTask="true" />
-91-->E:\appad\java\mobile\app\src\main\AndroidManifest.xml:75:13-40
+91-->E:\tam\mobile\app\src\main\AndroidManifest.xml:75:13-40
 92
 93        <provider
 93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BANG\.gradle\caches\transforms-3\0d6bd0e3eb9f2b11d5e7ea50a9b64947\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

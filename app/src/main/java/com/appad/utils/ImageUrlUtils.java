@@ -1,7 +1,7 @@
 package com.appad.utils;
 
 public class ImageUrlUtils {
-    private static final String BASE_URL = "http://10.0.2.2:5000";
+    private static final String BASE_URL = "https://backend-production-c44f.up.railway.app";
 
     public static String fixUrl(String url) {
         if (url == null || url.isEmpty()) {
