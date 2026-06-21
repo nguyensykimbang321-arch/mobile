@@ -12,7 +12,7 @@ public class RetrofitClient {
     // private static final String BASE_URL = "http://10.0.2.2:5000/"; 
     
     // CHẠY TRÊN CLOUD (Railway) - Thay bằng link bạn vừa lấy ở bước trên
-    private static final String BASE_URL = "https://backend-production-c44f.up.railway.app/"; 
+    private static final String BASE_URL = "https://backend-production-5301.up.railway.app/"; 
     
     // IP TEST LOCAL (Comment lại khi dùng Railway)
     // private static final String BASE_URL_LOCAL = "http://192.168.1.xxx:5000/"; 

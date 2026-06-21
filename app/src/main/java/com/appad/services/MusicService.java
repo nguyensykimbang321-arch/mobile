@@ -319,21 +319,31 @@ public class MusicService extends Service {
         // Called when user removes app from recent apps
         android.util.Log.d("MusicService", "App removed from recent apps - stopping everything");
         
-        // 1. Record history before dying
-        com.appad.utils.MusicPlayerManager.getInstance().recordCurrentSongHistory();
-        
-        // 2. Stop player
+        // 1. Tắt player ngay lập tức (không đợi ghi history vì có thể bị kill process)
         if (exoPlayer != null) {
             exoPlayer.stop();
             exoPlayer.release();
             exoPlayer = null;
         }
         
-        // 3. Remove notification and stop service
-        stopForeground(true);
+        // 2. Giải phóng locks
+        releaseWifiLock();
+        if (transitionWakeLock != null && transitionWakeLock.isHeld()) {
+            transitionWakeLock.release();
+        }
+        
+        // 3. Xóa notification và dừng service
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+            stopForeground(STOP_FOREGROUND_REMOVE);
+        } else {
+            stopForeground(true);
+        }
         stopSelf();
         
         super.onTaskRemoved(rootIntent);
+        
+        // 4. Force kill process để đảm bảo không còn thread nào chạy ngầm (tùy chọn nhưng hiệu quả)
+        // android.os.Process.killProcess(android.os.Process.myPid());
     }
 
     @Override

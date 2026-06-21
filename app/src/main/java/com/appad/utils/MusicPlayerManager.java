@@ -138,6 +138,7 @@ public class MusicPlayerManager {
 
     public void init(Context context) {
         Intent intent = new Intent(context, MusicService.class);
+        context.startService(intent); // Đảm bảo Service ở trạng thái Started
         context.bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE);
         updateInteraction();
         startInactivityCheck();
@@ -281,7 +282,19 @@ public class MusicPlayerManager {
         }
 
         // 3. Load the new song
-        if (isServiceBound && musicService != null) {
+        if (musicService != null) {
+            // Đảm bảo Service luôn ở trạng thái Started (để onTaskRemoved luôn được gọi)
+            // Ngay cả khi hệ thống tự rebind service, nó cũng chỉ ở trạng thái Bound.
+            Context context = com.appad.MusicApplication.getInstance();
+            Intent intent = new Intent(context, MusicService.class);
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                // Trên một số máy, cần dùng startForegroundService nếu muốn phát nhạc ngay
+                // Nhưng ở đây ta cứ dùng startService thông thường vì binding đã giữ nó sống.
+                context.startService(intent);
+            } else {
+                context.startService(intent);
+            }
+
             this.currentSong = song; // Đảm bảo manager biết song mới ngay cả khi autoPlay=false
             accumulatedTime = 0; // Reset cho bài mới
             lastAutoNextSongId = -1; // Reset guard
