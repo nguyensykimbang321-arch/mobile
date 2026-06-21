@@ -154,19 +154,23 @@ public class NotificationActivity extends AppCompatActivity implements Notificat
                             Gson gson = new Gson();
                             for (Map<String, Object> map : list) {
                                 Notification n = new Notification();
-                                Object idObj = map.get("notificationId");
+                                Object idObj = map.get("notification_id");
+                                if (idObj == null) idObj = map.get("notificationId");
                                 if (idObj instanceof Number) n.setNotificationId(((Number) idObj).longValue());
-                                
+                                 
                                 n.setTitle((String) map.get("title"));
                                 n.setMessage((String) map.get("message"));
                                 n.setType((String) map.get("type"));
-                                
+                                 
                                 // Handle both "read" and "isRead" keys
-                                Object readVal = map.get("read");
+                                Object readVal = map.get("is_read");
+                                if (readVal == null) readVal = map.get("read");
                                 if (readVal == null) readVal = map.get("isRead");
                                 n.setRead(Boolean.TRUE.equals(readVal));
-                                
-                                n.setCreatedAt((String) map.get("createdAt"));
+                                 
+                                String createdVal = (String) map.get("created_at");
+                                if (createdVal == null) createdVal = (String) map.get("createdAt");
+                                n.setCreatedAt(createdVal);
                                 
                                 Object d = map.get("data");
                                 if (d instanceof String) n.setData((String) d);
@@ -241,9 +245,13 @@ public class NotificationActivity extends AppCompatActivity implements Notificat
             RetrofitClient.getApiService().markAsRead(notification.getNotificationId()).enqueue(new Callback<Map<String, Object>>() {
                 @Override
                 public void onResponse(Call<Map<String, Object>> call, Response<Map<String, Object>> response) {
-                    // Already updated UI
+                    System.out.println("NotificationActivity: markAsRead response code = " + response.code() + " body = " + response.body());
                 }
-                @Override public void onFailure(Call<Map<String, Object>> call, Throwable t) {}
+                @Override 
+                public void onFailure(Call<Map<String, Object>> call, Throwable t) {
+                    System.out.println("NotificationActivity: markAsRead call failed: " + t.getMessage());
+                    t.printStackTrace();
+                }
             });
         }
         
