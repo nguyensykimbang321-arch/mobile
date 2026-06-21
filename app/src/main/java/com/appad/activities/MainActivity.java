@@ -103,6 +103,23 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         setupMiniPlayerSync();
+
+        if (com.appad.activities.PremiumActivity.isPremiumStatusChanged) {
+            com.appad.activities.PremiumActivity.isPremiumStatusChanged = false;
+            reloadFragmentsData();
+        }
+    }
+
+    private void reloadFragmentsData() {
+        if (homeFragment instanceof HomeFragment) {
+            ((HomeFragment) homeFragment).refreshData();
+        }
+        if (searchFragment instanceof SearchFragment) {
+            ((SearchFragment) searchFragment).refreshData();
+        }
+        if (profileFragment instanceof com.appad.fragments.ProfileFragment) {
+            ((com.appad.fragments.ProfileFragment) profileFragment).refreshData();
+        }
     }
 
     private String formatTime(int ms) {

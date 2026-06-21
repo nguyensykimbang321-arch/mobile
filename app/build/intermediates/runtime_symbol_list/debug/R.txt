@@ -4604,6 +4604,7 @@ int id txtPlaylistNameSmall 0x7f0a04df
 int id txtPlaylistSongCount 0x7f0a04e0
 int id txtPlaylistTitle 0x7f0a04e1
 int id txtPremiumAlbumsTitle 0x7f0a04e2
+int id txtPremiumNotice 0x7f0a0563
 int id txtPremiumPrice 0x7f0a04e3
 int id txtPremiumSongsTitle 0x7f0a04e4
 int id txtPremiumSubtitle 0x7f0a04e5

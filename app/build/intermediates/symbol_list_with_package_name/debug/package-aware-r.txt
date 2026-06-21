@@ -4605,6 +4605,7 @@ id txtPlaylistNameSmall
 id txtPlaylistSongCount
 id txtPlaylistTitle
 id txtPremiumAlbumsTitle
+id txtPremiumNotice
 id txtPremiumPrice
 id txtPremiumSongsTitle
 id txtPremiumSubtitle

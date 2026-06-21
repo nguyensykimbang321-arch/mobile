@@ -28,12 +28,13 @@ public class PremiumActivity extends AppCompatActivity {
 
     private LinearLayout layoutActiveStatus, layoutSubscribe, btnQuickTopUp, btnTransactionHistory;
     private TextView txtExpiryDate, txtBalance, txtTopUpNeeded, txtPremiumPrice;
-    private Button btnSubscribePremium;
+    private Button btnSubscribePremium, btnCancelPremium;
     private ProgressBar pbLoading;
     
     private double currentBalance = 0;
     private final int PREMIUM_PRICE = 99000;
     private com.appad.utils.MiniPlayerHelper miniPlayerHelper;
+    public static boolean isPremiumStatusChanged = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +58,7 @@ public class PremiumActivity extends AppCompatActivity {
         txtPremiumPrice = findViewById(R.id.txtPremiumPrice);
         
         btnSubscribePremium = findViewById(R.id.btnSubscribePremium);
+        btnCancelPremium = findViewById(R.id.btnCancelPremium);
         pbLoading = findViewById(R.id.pbLoading);
 
         txtPremiumPrice.setText(formatCurrencyNoSymbol(PREMIUM_PRICE));
@@ -64,6 +66,7 @@ public class PremiumActivity extends AppCompatActivity {
 
     private void setupListeners() {
         btnSubscribePremium.setOnClickListener(v -> handleSubscribe());
+        btnCancelPremium.setOnClickListener(v -> handleCancelPremium());
         btnQuickTopUp.setOnClickListener(v -> {
             startActivity(new Intent(this, DepositActivity.class));
         });
@@ -87,6 +90,7 @@ public class PremiumActivity extends AppCompatActivity {
                     if (data != null) {
                         android.util.Log.d("PremiumActivity", "User Data Map: " + data.toString());
                         updatePremiumUI(data);
+                        SessionManager.getInstance(PremiumActivity.this).saveUser(data);
                     }
                 }
                 checkLoadingDone();
@@ -212,6 +216,7 @@ public class PremiumActivity extends AppCompatActivity {
                 btnSubscribePremium.setEnabled(true);
                 
                 if (response.isSuccessful()) {
+                    isPremiumStatusChanged = true;
                     Toast.makeText(PremiumActivity.this, "Chúc mừng! Bạn đã trở thành thành viên Premium.", Toast.LENGTH_LONG).show();
                     fetchData(); // Refresh UI
                 } else {
@@ -223,6 +228,105 @@ public class PremiumActivity extends AppCompatActivity {
             public void onFailure(Call<Map<String, Object>> call, Throwable t) {
                 pbLoading.setVisibility(View.GONE);
                 btnSubscribePremium.setEnabled(true);
+                Toast.makeText(PremiumActivity.this, "Lỗi kết nối", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+    private void handleCancelPremium() {
+        pbLoading.setVisibility(View.VISIBLE);
+        btnCancelPremium.setEnabled(false);
+
+        RetrofitClient.getApiService().cancelPremiumPreview().enqueue(new Callback<Map<String, Object>>() {
+            @Override
+            public void onResponse(Call<Map<String, Object>> call, Response<Map<String, Object>> response) {
+                pbLoading.setVisibility(View.GONE);
+                btnCancelPremium.setEnabled(true);
+
+                if (response.isSuccessful() && response.body() != null) {
+                    Map<String, Object> data = (Map<String, Object>) response.body().get("data");
+                    if (data != null) {
+                        showCancelConfirmDialog(data);
+                    }
+                } else {
+                    Toast.makeText(PremiumActivity.this, "Không thể lấy thông tin hoàn tiền", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<Map<String, Object>> call, Throwable t) {
+                pbLoading.setVisibility(View.GONE);
+                btnCancelPremium.setEnabled(true);
+                Toast.makeText(PremiumActivity.this, "Lỗi kết nối", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+    private void showCancelConfirmDialog(Map<String, Object> data) {
+        long daysRemaining = 0;
+        if (data.containsKey("days_remaining")) {
+            daysRemaining = ((Number) data.get("days_remaining")).longValue();
+        }
+
+        double refundAmount = 0;
+        if (data.containsKey("refund_amount")) {
+            refundAmount = ((Number) data.get("refund_amount")).doubleValue();
+        }
+
+        double daysElapsed = 0;
+        if (data.containsKey("days_elapsed")) {
+            daysElapsed = ((Number) data.get("days_elapsed")).doubleValue();
+        }
+
+        String message;
+        if (refundAmount > 0) {
+            message = "Bạn còn " + daysRemaining + " ngày sử dụng Premium.\n" +
+                    "Bạn đã sử dụng " + daysElapsed + " ngày (trong vòng 7 ngày đầu).\n\n" +
+                    "Nếu hủy ngay bây giờ, bạn sẽ được hoàn lại:\n" +
+                    "• Số tiền: " + formatCurrency(refundAmount) + " (50% giá trị gói)\n\n" +
+                    "Số tiền hoàn sẽ được cộng trực tiếp vào ví của bạn. Bạn có chắc chắn muốn hủy gói Premium?";
+        } else {
+            message = "Bạn còn " + daysRemaining + " ngày sử dụng Premium.\n" +
+                    "Bạn đã sử dụng " + daysElapsed + " ngày (quá hạn hoàn tiền 7 ngày).\n\n" +
+                    "Nếu hủy bây giờ, bạn sẽ KHÔNG ĐƯỢC HOÀN TIỀN.\n\n" +
+                    "Bạn có chắc chắn muốn hủy gói Premium?";
+        }
+
+        new androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle("Xác nhận hủy Premium")
+            .setMessage(message)
+            .setPositiveButton("Hủy Gói", (dialog, which) -> performCancelPremium())
+            .setNegativeButton("Giữ lại", null)
+            .show();
+    }
+
+    private void performCancelPremium() {
+        pbLoading.setVisibility(View.VISIBLE);
+        btnCancelPremium.setEnabled(false);
+
+        RetrofitClient.getApiService().cancelPremium().enqueue(new Callback<Map<String, Object>>() {
+            @Override
+            public void onResponse(Call<Map<String, Object>> call, Response<Map<String, Object>> response) {
+                pbLoading.setVisibility(View.GONE);
+                btnCancelPremium.setEnabled(true);
+
+                if (response.isSuccessful() && response.body() != null) {
+                    isPremiumStatusChanged = true;
+                    double refunded = 0;
+                    if (response.body().containsKey("refund_amount")) {
+                        refunded = ((Number) response.body().get("refund_amount")).doubleValue();
+                    }
+                    Toast.makeText(PremiumActivity.this, "Đã hủy gói Premium. Hoàn lại " + formatCurrency(refunded) + " vào ví.", Toast.LENGTH_LONG).show();
+                    fetchData(); // Tải lại thông tin user & balance
+                } else {
+                    Toast.makeText(PremiumActivity.this, "Hủy gói Premium thất bại", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<Map<String, Object>> call, Throwable t) {
+                pbLoading.setVisibility(View.GONE);
+                btnCancelPremium.setEnabled(true);
                 Toast.makeText(PremiumActivity.this, "Lỗi kết nối", Toast.LENGTH_SHORT).show();
             }
         });

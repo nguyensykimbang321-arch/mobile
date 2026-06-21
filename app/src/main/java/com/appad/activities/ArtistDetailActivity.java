@@ -411,8 +411,11 @@ public class ArtistDetailActivity extends AppCompatActivity {
             public void onResponse(Call<Map<String, Object>> call, Response<Map<String, Object>> response) {
                 if (response.isSuccessful() && response.body() != null) {
                     Map<String, Object> data = (Map<String, Object>) response.body().get("data");
-                    if (data != null && data.containsKey("balance")) {
-                        userBalance = ((Number) data.get("balance")).doubleValue();
+                    if (data != null) {
+                        if (data.containsKey("balance")) {
+                            userBalance = ((Number) data.get("balance")).doubleValue();
+                        }
+                        SessionManager.getInstance(ArtistDetailActivity.this).saveUser(data);
                     }
                 }
                 showMembershipDialog();
@@ -425,8 +428,19 @@ public class ArtistDetailActivity extends AppCompatActivity {
     }
 
     private void showMembershipDialog() {
-        String message = "Bạn muốn đăng ký gói Fan Cứng " + membershipDuration + " ngày với giá " + formatCurrency(membershipPrice) + "?\n\n"
-                       + "Số dư hiện tại: " + formatCurrency(userBalance);
+        SessionManager sm = SessionManager.getInstance(this);
+        com.appad.models.User user = (sm != null) ? sm.getUser() : null;
+
+        String message = "";
+        if (user != null && user.getIsPremium() != null && user.getIsPremium() == 1) {
+            String expiry = formatExpiryDate(user.getPremiumExpiry());
+            message = "Bạn đã có quyền truy cập tất cả nhạc của nghệ sĩ này đến ngày " + expiry + " (do tài khoản của bạn là Premium).\n\n"
+                    + "Bạn có thực sự muốn đăng ký gói Fan Cứng " + membershipDuration + " ngày với giá " + formatCurrency(membershipPrice) + "?\n\n"
+                    + "Số dư hiện tại: " + formatCurrency(userBalance);
+        } else {
+            message = "Bạn muốn đăng ký gói Fan Cứng " + membershipDuration + " ngày với giá " + formatCurrency(membershipPrice) + "?\n\n"
+                    + "Số dư hiện tại: " + formatCurrency(userBalance);
+        }
 
         androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(this);
         builder.setTitle("Tham gia Fan Cứng");
@@ -443,6 +457,22 @@ public class ArtistDetailActivity extends AppCompatActivity {
             builder.setMessage(message + "\n\n(Số dư không đủ để thực hiện giao dịch)");
         }
         builder.show();
+    }
+
+    private String formatExpiryDate(String expiryStr) {
+        if (expiryStr == null || expiryStr.isEmpty()) return "N/A";
+        try {
+            if (expiryStr.contains("T")) {
+                String datePart = expiryStr.split("T")[0]; // "yyyy-MM-dd"
+                String[] parts = datePart.split("-");
+                if (parts.length == 3) {
+                    return parts[2] + "/" + parts[1] + "/" + parts[0]; // "dd/MM/yyyy"
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return expiryStr;
     }
 
     private void subscribeMembership() {

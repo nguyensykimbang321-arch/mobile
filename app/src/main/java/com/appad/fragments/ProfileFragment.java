@@ -443,4 +443,10 @@ public class ProfileFragment extends Fragment {
             }
         }
     }
+
+    public void refreshData() {
+        if (isAdded()) {
+            loadUserData();
+        }
+    }
 }

@@ -93,6 +93,7 @@ public class PurchaseConfirmationModal extends DialogFragment {
         TextView txtRemainingBalance = view.findViewById(R.id.txtRemainingBalance);
         TextView txtBadge = view.findViewById(R.id.txtPurchaseBadge);
         TextView txtDescription = view.findViewById(R.id.txtDescription);
+        TextView txtPremiumNotice = view.findViewById(R.id.txtPremiumNotice);
         LinearLayout layoutWarning = view.findViewById(R.id.layoutWarning);
         Button btnConfirm = view.findViewById(R.id.btnConfirm);
         ImageView imgIcon = view.findViewById(R.id.imgTypeIcon);
@@ -141,6 +142,26 @@ public class PurchaseConfirmationModal extends DialogFragment {
                 txtDescription.setText("Nghe mọi bài hát Premium của nghệ sĩ này.");
                 imgIcon.setImageResource(android.R.drawable.ic_menu_myplaces);
                 break;
+        }
+
+        com.appad.utils.SessionManager sm = com.appad.utils.SessionManager.getInstance(getContext());
+        com.appad.models.User user = (sm != null) ? sm.getUser() : null;
+        if (user != null && user.getIsPremium() != null && user.getIsPremium() == 1 && txtPremiumNotice != null) {
+            String expiry = formatExpiryDate(user.getPremiumExpiry());
+            switch (type) {
+                case "song":
+                    txtPremiumNotice.setText("Bạn đã có quyền truy cập nhạc này đến ngày " + expiry);
+                    txtPremiumNotice.setVisibility(View.VISIBLE);
+                    break;
+                case "album":
+                    txtPremiumNotice.setText("Bạn đã có quyền truy cập album này đến ngày " + expiry);
+                    txtPremiumNotice.setVisibility(View.VISIBLE);
+                    break;
+                case "membership":
+                    txtPremiumNotice.setText("Bạn đã có quyền truy cập tất cả nhạc của nghệ sĩ này đến ngày " + expiry);
+                    txtPremiumNotice.setVisibility(View.VISIBLE);
+                    break;
+            }
         }
 
         view.findViewById(R.id.btnCancel).setOnClickListener(v -> dismiss());
@@ -193,6 +214,22 @@ public class PurchaseConfirmationModal extends DialogFragment {
                 Toast.makeText(getContext(), "Lỗi kết nối", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    private String formatExpiryDate(String expiryStr) {
+        if (expiryStr == null || expiryStr.isEmpty()) return "N/A";
+        try {
+            if (expiryStr.contains("T")) {
+                String datePart = expiryStr.split("T")[0]; // "yyyy-MM-dd"
+                String[] parts = datePart.split("-");
+                if (parts.length == 3) {
+                    return parts[2] + "/" + parts[1] + "/" + parts[0]; // "dd/MM/yyyy"
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return expiryStr;
     }
 
     private String formatCurrency(double amount) {

@@ -1105,4 +1105,15 @@ public class SearchFragment extends Fragment {
             btn.setStrokeColor(ColorStateList.valueOf(follow ? Color.TRANSPARENT : Color.parseColor("#8B5CF6")));
         }
     }
+
+    public void refreshData() {
+        if (isAdded()) {
+            loadInitialData();
+            if (currentQuery.length() >= 2) {
+                performSearch(currentQuery);
+            } else {
+                showDefaultDataForTab();
+            }
+        }
+    }
 }

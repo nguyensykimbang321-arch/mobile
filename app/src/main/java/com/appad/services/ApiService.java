@@ -198,6 +198,12 @@ public interface ApiService {
     @POST("api/wallet/premium/subscribe")
     Call<Map<String, Object>> subscribePremium(@Body Map<String, Object> payload);
 
+    @GET("api/wallet/premium/cancel-preview")
+    Call<Map<String, Object>> cancelPremiumPreview();
+
+    @POST("api/wallet/premium/cancel")
+    Call<Map<String, Object>> cancelPremium();
+
     // User Profile
     @GET("api/users/profile")
     Call<Map<String, Object>> getProfile();

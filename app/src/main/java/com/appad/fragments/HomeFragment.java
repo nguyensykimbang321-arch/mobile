@@ -554,4 +554,11 @@ public class HomeFragment extends Fragment {
         mainListTouchHelper = new ItemTouchHelper(callback);
         mainListTouchHelper.attachToRecyclerView(recyclerViewMain);
     }
+
+    public void refreshData() {
+        isDataLoaded = false;
+        if (isAdded()) {
+            loadData();
+        }
+    }
 }
