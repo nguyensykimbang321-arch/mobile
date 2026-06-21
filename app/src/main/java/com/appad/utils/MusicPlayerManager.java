@@ -451,29 +451,56 @@ public class MusicPlayerManager {
     }
 
     public boolean hasAccess(Song song) {
-        if (song == null) return false;
+        if (song == null) {
+            android.util.Log.w("MusicPlayerManager", "hasAccess: song is null");
+            return false;
+        }
         
         // 1. Free check
         boolean isPremium = (song.getIsPremium() != null && song.getIsPremium() == 1);
         boolean isAlbumPremium = (song.getIsAlbumPremium() != null && song.getIsAlbumPremium() == 1);
-        if (!isPremium && !isAlbumPremium) return true;
+        if (!isPremium && !isAlbumPremium) {
+            android.util.Log.d("MusicPlayerManager", "hasAccess: song '" + song.getTitle() + "' is FREE (granted)");
+            return true;
+        }
 
         // 2. User info
         SessionManager sm = SessionManager.getInstance(com.appad.MusicApplication.getInstance());
         User user = (sm != null) ? sm.getUser() : null;
-        if (user == null) return false;
+        if (user == null) {
+            android.util.Log.w("MusicPlayerManager", "hasAccess: user session is null, denying premium song '" + song.getTitle() + "'");
+            return false;
+        }
+
+        android.util.Log.d("MusicPlayerManager", "hasAccess check for premium song '" + song.getTitle() + "' - User: " + user.getUsername() + ", userPremium: " + user.getIsPremium());
 
         // 3. Artist Owner (pre-calculated by backend)
-        if (Boolean.TRUE.equals(song.getIsArtistOwner())) return true;
+        if (Boolean.TRUE.equals(song.getIsArtistOwner())) {
+            android.util.Log.d("MusicPlayerManager", "hasAccess: user is artist owner of '" + song.getTitle() + "' (granted)");
+            return true;
+        }
 
         // 4. Global Premium
-        if (user.getIsPremium() != null && user.getIsPremium() == 1) return true;
+        if (user.getIsPremium() != null && user.getIsPremium() == 1) {
+            android.util.Log.d("MusicPlayerManager", "hasAccess: user has Global Premium (granted)");
+            return true;
+        }
 
         // 5. Purchases & Membership (using flags from Song object)
-        if (Boolean.TRUE.equals(song.getBought())) return true;
-        if (Boolean.TRUE.equals(song.getAlbumBought())) return true;
-        if (Boolean.TRUE.equals(song.getArtistMember())) return true;
+        if (Boolean.TRUE.equals(song.getBought())) {
+            android.util.Log.d("MusicPlayerManager", "hasAccess: song '" + song.getTitle() + "' was bought (granted)");
+            return true;
+        }
+        if (Boolean.TRUE.equals(song.getAlbumBought())) {
+            android.util.Log.d("MusicPlayerManager", "hasAccess: album was bought (granted)");
+            return true;
+        }
+        if (Boolean.TRUE.equals(song.getArtistMember())) {
+            android.util.Log.d("MusicPlayerManager", "hasAccess: user has artist membership (granted)");
+            return true;
+        }
 
+        android.util.Log.w("MusicPlayerManager", "hasAccess: user doesn't have premium/ownership for '" + song.getTitle() + "' (denied)");
         return false;
     }
 

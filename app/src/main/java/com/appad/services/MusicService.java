@@ -284,6 +284,7 @@ public class MusicService extends Service {
                 .setSmallIcon(android.R.drawable.ic_media_play)
                 .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher_background))
                 .setContentIntent(pendingIntent)
+                .setOngoing(playing) // Cho phép vuốt xóa notification khi đang tạm dừng (pause)
                 .setStyle(new androidx.media.app.NotificationCompat.MediaStyle()
                         .setShowActionsInCompactView(0, 1, 2))
                 .addAction(android.R.drawable.ic_media_previous, "Previous", getActionIntent(ACTION_PREV))
@@ -293,23 +294,25 @@ public class MusicService extends Service {
                 .addAction(android.R.drawable.ic_media_next, "Next", getActionIntent(ACTION_NEXT))
                 .build();
 
-        if (playing) {
-            startForeground(1, notification);
-        } else {
-            // Khi pause, không bắt buộc chạy foreground để tiết kiệm tài nguyên và cho phép hệ thống giải phóng RAM
-            // false có nghĩa là giữ lại notification nhưng cho phép service bị kill nếu thiếu RAM
-            stopForeground(false);
-            
-            // Check permission for Android 13+ before notifying while not in foreground
-            boolean canNotify = true;
-            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
-                canNotify = androidx.core.content.ContextCompat.checkSelfPermission(this, android.Manifest.permission.POST_NOTIFICATIONS) 
-                        == android.content.pm.PackageManager.PERMISSION_GRANTED;
+        try {
+            // Để tránh lỗi ForegroundServiceStartNotAllowedException trên Android 12+ (API 31+),
+            // chúng ta luôn giữ service chạy ở chế độ foreground khi bài hát đang hoạt động (kể cả khi tạm dừng).
+            // Điều này ngăn chặn hệ thống chuyển service về background và báo lỗi StartNotAllowed khi phát lại.
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.Q) {
+                startForeground(1, notification, android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PLAYBACK);
+            } else {
+                startForeground(1, notification);
             }
-            
-            if (canNotify) {
+        } catch (Exception e) {
+            android.util.Log.e("MusicService", "Error calling startForeground (ForegroundServiceStartNotAllowedException safety)", e);
+            // Fallback: Cập nhật notification bình thường nếu không được phép chạy foreground
+            try {
                 android.app.NotificationManager nm = (android.app.NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-                if (nm != null) nm.notify(1, notification);
+                if (nm != null) {
+                    nm.notify(1, notification);
+                }
+            } catch (Exception ex) {
+                android.util.Log.e("MusicService", "Failed to update notification via notify()", ex);
             }
         }
     }

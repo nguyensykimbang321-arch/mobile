@@ -37,20 +37,39 @@ public class SessionManager {
     }
 
     public void saveUser(Map<String, Object> userData) {
+        if (userData == null) return;
+        
+        // Clean map values: convert Double numbers representing integers back to Integer
+        // to prevent Gson serialization of Double (e.g. 1.0) causing NumberFormatException later.
+        Map<String, Object> cleanData = new java.util.HashMap<>();
+        for (Map.Entry<String, Object> entry : userData.entrySet()) {
+            Object val = entry.getValue();
+            if (val instanceof Number) {
+                double d = ((Number) val).doubleValue();
+                if (d == (int) d) {
+                    cleanData.put(entry.getKey(), (int) d);
+                } else {
+                    cleanData.put(entry.getKey(), d);
+                }
+            } else {
+                cleanData.put(entry.getKey(), val);
+            }
+        }
+
         Gson gson = new Gson();
-        String json = gson.toJson(userData);
+        String json = gson.toJson(cleanData);
         sharedPreferences.edit().putString(KEY_USER, json).apply();
         
         // Save ID separately for easy access
-        if (userData.containsKey("userId")) {
-            saveId(userData.get("userId"));
-        } else if (userData.containsKey("user_id")) {
-            saveId(userData.get("user_id"));
+        if (cleanData.containsKey("userId")) {
+            saveId(cleanData.get("userId"));
+        } else if (cleanData.containsKey("user_id")) {
+            saveId(cleanData.get("user_id"));
         }
 
         // Save Token
-        if (userData.containsKey("token")) {
-            String token = String.valueOf(userData.get("token"));
+        if (cleanData.containsKey("token")) {
+            String token = String.valueOf(cleanData.get("token"));
             sharedPreferences.edit().putString(KEY_TOKEN, token).apply();
         }
     }
@@ -94,12 +113,35 @@ public class SessionManager {
     public User getUser() {
         String json = sharedPreferences.getString(KEY_USER, null);
         if (json == null) return null;
+        Gson gson = new Gson();
         try {
-            // Safe JSON parsing with fallback
-            return new Gson().fromJson(json, com.appad.models.User.class);
+            // Try standard deserialization
+            return gson.fromJson(json, com.appad.models.User.class);
         } catch (Exception e) {
-            e.printStackTrace();
-            return null;
+            android.util.Log.e("SessionManager", "Error parsing user JSON, attempting number normalization recovery", e);
+            try {
+                // Recovery: parse as generic Map, normalize numbers, serialize and parse to User
+                Map<String, Object> map = gson.fromJson(json, Map.class);
+                Map<String, Object> cleanMap = new java.util.HashMap<>();
+                for (Map.Entry<String, Object> entry : map.entrySet()) {
+                    Object val = entry.getValue();
+                    if (val instanceof Number) {
+                        double d = ((Number) val).doubleValue();
+                        if (d == (int) d) {
+                            cleanMap.put(entry.getKey(), (int) d);
+                        } else {
+                            cleanMap.put(entry.getKey(), d);
+                        }
+                    } else {
+                        cleanMap.put(entry.getKey(), val);
+                    }
+                }
+                String cleanJson = gson.toJson(cleanMap);
+                return gson.fromJson(cleanJson, com.appad.models.User.class);
+            } catch (Exception ex) {
+                android.util.Log.e("SessionManager", "Failed normalization recovery", ex);
+                return null;
+            }
         }
     }
 
