@@ -1,1042 +1,1054 @@
 [
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_shuffle_modern.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_shuffle_modern.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_dialog_import_playlist.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\dialog_import_playlist.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_button_cancel_red.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_button_cancel_red.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_stat_panel.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_stat_panel.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/color_bottom_nav_icon_color.xml.flat",
-        "source": "com.appad.app-main-37:/color/bottom_nav_icon_color.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_menu_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_menu_card.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_button_gradient.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_button_gradient.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_genre.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_genre.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_manage_album.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_manage_album.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_nav_search.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_nav_search.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_dialog_success.xml.flat",
-        "source": "com.appad.app-main-37:/layout/dialog_success.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_chevron_right.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_player_background_gradient.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/player_background_gradient.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_shared_playlist.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_shared_playlist.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_tab_selected.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_tab_selected.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_disc_badge.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_disc_badge.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_queue_sheet.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_queue_sheet.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_stat_purple.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_stat_purple.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_mini_player_collapsed.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_mini_player_collapsed.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_wallet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_wallet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_dropdown_menu.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_dropdown_menu.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_check.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_bottom_sheet_player_actions.xml.flat",
-        "source": "com.appad.app-main-37:/layout/bottom_sheet_player_actions.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_queue_sheet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_queue_sheet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_dashboard_action.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_dashboard_action.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_heart_outline.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_heart_outline.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_notification.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_notification.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_dropdown_menu.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_dropdown_menu.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_register.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_register.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_rating_star_selector.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\rating_star_selector.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_chevron_down.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_chevron_down.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_chip_unselected.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_chip_unselected.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_song_card.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_song_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_glass_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_glass_card.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_login.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_login.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_stat_card_green.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_stat_card_green.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_edit_album.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_edit_album.xml"
+        "merged": "com.appad.app-merged_res-35:/drawable_ic_facebook.xml.flat",
+        "source": "com.appad.app-main-37:/drawable/ic_facebook.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_download_row.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_download_row.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_remove_red.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_remove_red.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_artist_reviews.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_artist_reviews.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_edit_album.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_edit_album.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bottom_nav_background.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bottom_nav_background.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_album.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_album.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/mipmap-hdpi_ic_launcher.xml.flat",
-        "source": "com.appad.app-main-37:/mipmap-hdpi/ic_launcher.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_song.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_song.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_profile_menu_item.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_profile_menu_item.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\color_bottom_nav_ripple_color.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\color\\bottom_nav_ripple_color.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_circle_outline.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_circle_outline.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_mini_player.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_mini_player.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_genre_detail.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_genre_detail.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_home_top_gradient.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\home_top_gradient.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_star.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_star.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_admin_header_gradient.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_admin_header_gradient.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_chevron_right.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_chevron_right.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_header_gradient.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\header_gradient.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_play_gradient_circle.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_play_gradient_circle.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_chevron_down.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_chevron_down.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_fragment_search.xml.flat",
-        "source": "com.appad.app-main-37:/layout/fragment_search.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_playlist_item.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_playlist_item.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_stat_amber.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_stat_amber.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\mipmap-hdpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_bottom_sheet.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_bottom_sheet.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_purchased_songs.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_purchased_songs.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_analytics_stat_box.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_analytics_stat_box.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_visibility_off.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_visibility_off.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_membership.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_membership.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_playlist_small.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_playlist_small.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_admin_membership.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_admin_membership.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_main.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_main.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_profile_header.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_profile_header.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_check_circle_badge.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_check_circle_badge.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_albums.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_albums.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_nav_library.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_nav_library.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_analytics_top_song.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_analytics_top_song.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_mini_close_button.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_mini_close_button.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_premium_access_modal.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_premium_access_modal.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_stat_card.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_stat_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_cancel_button.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_cancel_button.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_history_song.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_history_song.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_library.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_library.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_analytics.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_analytics.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_artist_detail.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_artist_detail.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_glass_card_dark.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_glass_card_dark.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_stat_card_glass.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_stat_card_glass.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_comment.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_comment.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_transaction.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_transaction.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_rating_badge.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_rating_badge.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_premium_feature_item.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_premium_feature_item.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_headset.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_headset.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_star_badge.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_star_badge.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_home_top_gradient.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/home_top_gradient.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_camera.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.appad.app-main-37:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_role_badge_user.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_role_badge_user.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_add.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_add.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_albums_outline.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_albums_outline.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_dropdown_button.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_dropdown_button.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_library_row.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_library_row.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_continue_listening_modal.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_continue_listening_modal.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_check_circle_badge.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_check_circle_badge.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_option_card.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_option_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_edit_album.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_edit_album.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_stat_cyan.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_stat_cyan.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_chip.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_chip.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_deposit.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_deposit.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_continue_listening_modal.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_continue_listening_modal.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_header_gradient.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/header_gradient.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_shuffle_modern.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_shuffle_modern.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_withdrawals.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_withdrawals.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_button_gradient_orange.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_button_gradient_orange.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_genre_card.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_genre_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_premium_gradient_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_premium_gradient_card.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_user.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_user.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bottom_sheet_background.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bottom_sheet_background.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_share.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_share.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_search_album.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_search_album.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_dialog_create_notification.xml.flat",
-        "source": "com.appad.app-main-37:/layout/dialog_create_notification.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_rating_badge.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_rating_badge.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_search_album.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_search_album.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_full_player.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_full_player.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_fragment_profile.xml.flat",
-        "source": "com.appad.app-main-37:/layout/fragment_profile.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_bottom_sheet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_mini_player_premium.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_mini_player_premium.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_sort.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_sort.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_mic_badge.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_mic_badge.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_chip.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_chip.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_stat_cyan.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_stat_cyan.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_role_badge_admin.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_role_badge_admin.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_mini_player.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_mini_player.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_history_header.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_history_header.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_search_background.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\search_background.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_admin_user.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_admin_user.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_payout_history.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_payout_history.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_song_item_premium.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_song_item_premium.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_custom_seekbar_thumb.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\custom_seekbar_thumb.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_nav_home.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_nav_home.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_dialog_report.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\dialog_report.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_comments_sheet.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_comments_sheet.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_revenue_stat.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_revenue_stat.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_dialog_sleep_timer.xml.flat",
-        "source": "com.appad.app-main-37:/layout/dialog_sleep_timer.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\color_admin_chip_bg.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\color\\admin_chip_bg.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_circle_translucent.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_circle_translucent.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_people.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_people.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_camera.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_camera.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_share.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_song_playlist.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_song_playlist.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_lyrics_sheet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_lyrics_sheet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_card.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_analytics_stat_box.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_analytics_stat_box.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_album_detail.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_album_detail.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_dialog_success.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\dialog_success.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_circle_infinite_icon_bg.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/circle_infinite_icon_bg.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_transaction.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_transaction.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_library.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_library.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_user.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_user.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_glass_card.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_glass_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_dialog_share_playlist.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\dialog_share_playlist.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_profile_header.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_profile_header.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_timer_status_infinite.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_timer_status_infinite.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_remove_red.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_remove_red.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_manage_membership.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_manage_membership.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/color_admin_chip_bg.xml.flat",
-        "source": "com.appad.app-main-37:/color/admin_chip_bg.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_artist_payout.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_artist_payout.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_music_note.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_music_note.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_queue_song.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_queue_song.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_dropdown_item.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_dropdown_item.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_headset_outline.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_headset_outline.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_circle_infinite_icon_bg.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\circle_infinite_icon_bg.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_song.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_song.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_premium_payout.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_premium_payout.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_mini_control_button.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_mini_control_button.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_manage_songs.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_manage_songs.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_repeat_one_modern.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_repeat_one_modern.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_edit.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_circle_bullet.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/circle_bullet.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_users.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_users.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_playlist_song_inline.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_playlist_song_inline.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_gradient_purple.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_gradient_purple.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_playlist_song_inline.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_playlist_song_inline.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_circle_success_bg.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\circle_success_bg.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_search_input.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_search_input.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_premium_payout.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_premium_payout.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_pending_artist.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_pending_artist.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_timer_status_infinite.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_timer_status_infinite.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_role_badge_user.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_role_badge_user.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_report_type_inactive.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_report_type_inactive.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_visibility_off.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_visibility_off.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\mipmap-hdpi\\ic_launcher.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_notification.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_notification.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_tab_selected.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_tab_selected.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_timer_status_active.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_timer_status_active.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_artist_reviews.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_artist_reviews.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_artist_approval.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_artist_approval.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_song_item_premium.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_song_item_premium.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_button_gradient_orange.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_button_gradient_orange.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_wallet_card_gradient.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_wallet_card_gradient.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_comment.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_comment.xml"
+        "merged": "com.appad.app-merged_res-35:/layout_dialog_help_support.xml.flat",
+        "source": "com.appad.app-main-37:/layout/dialog_help_support.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_analytics_top_song.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_analytics_top_song.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_all_inclusive.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_all_inclusive.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_premium_feature_item.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_premium_feature_item.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_circle.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_circle.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_premium.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_premium.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_song_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_song_card.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_albums_outline.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_albums_outline.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_song_draggable.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_song_draggable.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_songs.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_songs.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_stat_green.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_stat_green.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/color_bottom_nav_text_color.xml.flat",
-        "source": "com.appad.app-main-37:/color/bottom_nav_text_color.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_circle_purple.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_circle_purple.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_admin_song.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_admin_song.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_analytics.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_analytics.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_star_badge.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_star_badge.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_bottom_sheet_premium.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_bottom_sheet_premium.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_purchase_confirmation_modal.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_purchase_confirmation_modal.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_input_field.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_input_field.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_list.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_list.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_album_grid.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_album_grid.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_manage_membership.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_manage_membership.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_comment.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_comment.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_admin_withdrawal.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_admin_withdrawal.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_list.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_list.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_wallet.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_wallet.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_dialog_purchase_confirmation.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\dialog_purchase_confirmation.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_song_draggable.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_song_draggable.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_disc.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_disc.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_content_top_rounded.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_content_top_rounded.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_comments_sheet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_comments_sheet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_pending_artist.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_pending_artist.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_song_card_active.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_song_card_active.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_change_password.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_change_password.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_repeat_modern.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_repeat_modern.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_artist_dashboard.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_artist_dashboard.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\color_bottom_nav_icon_color.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\color\\bottom_nav_icon_color.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.xml.flat",
-        "source": "com.appad.app-main-37:/mipmap-hdpi/ic_launcher_round.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_report_type_active.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_report_type_active.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_edit_song.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_edit_song.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_repeat_one_modern.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_repeat_one_modern.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_dialog_share_playlist.xml.flat",
-        "source": "com.appad.app-main-37:/layout/dialog_share_playlist.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_card.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_admin_album.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_admin_album.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_queue_song.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_queue_song.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_dialog_report.xml.flat",
-        "source": "com.appad.app-main-37:/layout/dialog_report.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_notification.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_play_gradient.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_play_gradient.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_notification.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_notification.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_circle_timer_icon_bg.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/circle_timer_icon_bg.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_play_gradient_circle.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_play_gradient_circle.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_mini_player.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_mini_player.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_manage_albums.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_manage_albums.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_library_row.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_library_row.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_fragment_library.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\fragment_library.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_premium_access_modal.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_premium_access_modal.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_shuffle_custom.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_shuffle_custom.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_success_badge.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_success_badge.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_membership.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_membership.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_mini_player_collapsed_premium.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_mini_player_collapsed_premium.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_artist_review.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_artist_review.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_wallet_card_gradient.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_wallet_card_gradient.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_sort.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_sort.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_search_artist.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_search_artist.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_transaction_history.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_transaction_history.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_manage_songs.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_manage_songs.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_dropdown_menu_modern.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_dropdown_menu_modern.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_upload.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_upload.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_user.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_user.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_repeat_custom.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_repeat_custom.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_withdrawal.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_withdrawal.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_payout_history.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_payout_history.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_add.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_report_type_inactive.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_report_type_inactive.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_edit_song.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_edit_song.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_rating_star_selector.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/rating_star_selector.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_chevron_left.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_chevron_left.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_manage_albums.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_manage_albums.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_dashboard_action.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_dashboard_action.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_circle_success_bg.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/circle_success_bg.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_nav_home.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_nav_home.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_bottom_sheet_premium.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_bottom_sheet_premium.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_change_password.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_change_password.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_add_to_playlist_sheet.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_add_to_playlist_sheet.xml"
+        "merged": "com.appad.app-merged_res-35:/drawable_ic_email.xml.flat",
+        "source": "com.appad.app-main-37:/drawable/ic_email.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/menu_player_more_actions.xml.flat",
-        "source": "com.appad.app-main-37:/menu/player_more_actions.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_mini_close_button.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_mini_close_button.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_dialog_custom_alert.xml.flat",
-        "source": "com.appad.app-main-37:/layout/dialog_custom_alert.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_circle_button_bg.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\circle_button_bg.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_artist_review.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_artist_review.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_mini_player_collapsed.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_mini_player_collapsed.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_search_background.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/search_background.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_notification.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_notification.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_input_field.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_input_field.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\anim_hover_float.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\anim\\hover_float.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_placeholder_song.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/placeholder_song.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_song.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_song.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_musical_notes.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_musical_notes.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_withdraw.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_withdraw.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_admin_menu_icon_rounded.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_admin_menu_icon_rounded.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_copy.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_copy.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_song_card_active.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_song_card_active.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_history_header.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_history_header.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_chevron_up.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_chevron_up.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_icon_song_gradient.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_icon_song_gradient.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/color_bottom_nav_ripple_color.xml.flat",
-        "source": "com.appad.app-main-37:/color/bottom_nav_ripple_color.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_delete.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_report_type_active.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_report_type_active.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_circle_timer_icon_bg.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\circle_timer_icon_bg.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_search_result.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_search_result.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_tab_purple.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_tab_purple.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_glass_overlay.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/glass_overlay.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_people_badge.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_people_badge.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_artist_detail.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_artist_detail.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_icon_song_gradient.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_icon_song_gradient.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_dialog_create_notification.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\dialog_create_notification.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_player_action.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_player_action.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_artist_dashboard.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_artist_dashboard.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_heart_filled.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_heart_filled.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_role_badge_admin.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_role_badge_admin.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_users.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_users.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_wallet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_wallet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_stat_card_glass.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_stat_card_glass.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_drag_handle.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_drag_handle.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_withdraw.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_withdraw.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_chip_selected.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_chip_selected.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_premium_subscribe_card.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_premium_subscribe_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_manage_song.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_manage_song.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bottom_sheet_background.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bottom_sheet_background.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_withdrawals.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_withdrawals.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_back.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_back.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_admin_menu_icon_rounded.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_admin_menu_icon_rounded.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_dialog_import_playlist.xml.flat",
-        "source": "com.appad.app-main-37:/layout/dialog_import_playlist.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_heart_filled.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_heart_filled.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_lyrics_sheet.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_lyrics_sheet.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_search_result.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_search_result.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_playlist_item.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_playlist_item.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_bottom_sheet_player_actions.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\bottom_sheet_player_actions.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_edit_song.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_edit_song.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_placeholder_song.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\placeholder_song.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_notification.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_notification.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_album_detail.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_album_detail.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_bottom_sheet.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_bottom_sheet.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_button_gradient.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_button_gradient.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_check.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_check.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_back_button_fixed.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_back_button_fixed.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_stat_card_red.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_stat_card_red.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_glass_card_dark.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_glass_card_dark.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_stat_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_stat_card.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_full_player.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_full_player.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_tab_unselected.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_tab_unselected.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_people.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_people.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_stat_amber.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_stat_amber.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_admin_stat_panel.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_admin_stat_panel.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_musical_notes.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_musical_notes.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_chip_selected.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_chip_selected.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_artist_circle.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_artist_circle.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_song_item.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_song_item.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_tab_unselected.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_tab_unselected.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_profile_menu_item.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_profile_menu_item.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_playlist_detail.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_playlist_detail.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_broadcast.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_broadcast.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_glass_circle_bg.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/glass_circle_bg.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_nav_profile.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_nav_profile.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_chevron_left.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_chevron_left.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_search_unselected.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_search_unselected.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_mini_player_progress_drawable.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/mini_player_progress_drawable.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_play_gradient.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_play_gradient.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_chip_unselected.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_chip_unselected.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_dropdown_button.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_dropdown_button.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_membership.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_membership.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_history_song.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_history_song.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_role_badge_artist.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_role_badge_artist.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_circle_outline.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_circle_outline.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_dialog_purchase_confirmation.xml.flat",
-        "source": "com.appad.app-main-37:/layout/dialog_purchase_confirmation.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_dashboard.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.appad.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_fragment_library.xml.flat",
-        "source": "com.appad.app-main-37:/layout/fragment_library.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\fragment_search.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_premium_gradient_card.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_premium_gradient_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_success_badge.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_success_badge.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_mic_badge.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_mic_badge.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_button_outline_white.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_button_outline_white.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_shared_playlist.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_shared_playlist.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_add_to_playlist_sheet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_add_to_playlist_sheet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_circle_button_bg.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/circle_button_bg.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_premium.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_premium.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_artist_circle.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_artist_circle.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_edit_profile.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.appad.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_gradient_purple.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_gradient_purple.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_music_note.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_music_note.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\color_bottom_nav_text_color.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\color\\bottom_nav_text_color.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/anim_hover_float.xml.flat",
-        "source": "com.appad.app-main-37:/anim/hover_float.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_download_row.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_download_row.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_revenue_stat.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_revenue_stat.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_genre_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_genre_card.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_shuffle_custom.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_shuffle_custom.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_search_input.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_search_input.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_genre.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_genre.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_edit_song.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_edit_song.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_admin_transaction.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_admin_transaction.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_song_playlist.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_song_playlist.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_premium_status_active.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_premium_status_active.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_chevron_up.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_chevron_up.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_disc_badge.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_disc_badge.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_upload.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_upload.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_lyrics_card.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_lyrics_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_more_actions_sheet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_more_actions_sheet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_more_actions_sheet.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_more_actions_sheet.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_stat_card_red.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_stat_card_red.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_dropdown_item.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_dropdown_item.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_layout_purchase_confirmation_modal.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\layout_purchase_confirmation_modal.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_people_badge.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_people_badge.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_song_simple.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_song_simple.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_all_inclusive.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_all_inclusive.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_mini_player_premium.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_mini_player_premium.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_playlist_small.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_playlist_small.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_glass_circle_bg.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\glass_circle_bg.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_circle.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_circle.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_player_action.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_player_action.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_album_grid.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_album_grid.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_transactions.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_transactions.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_tab_purple.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_tab_purple.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_mini_player_progress_drawable.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\mini_player_progress_drawable.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_delete.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_delete.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_mini_player_collapsed_premium.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_mini_player_collapsed_premium.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_default_avatar.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/default_avatar.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_role_badge_artist.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_role_badge_artist.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_custom_seekbar_thumb.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/custom_seekbar_thumb.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_premium_status_active.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_premium_status_active.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_nav_profile.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_nav_profile.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_headset.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_headset.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_nav_search.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_nav_search.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_mini_control_button.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_mini_control_button.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_dashboard.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_dashboard.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_membership.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_membership.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_edit_profile.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_edit_profile.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_search_artist.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_search_artist.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_broadcast.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_broadcast.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\menu_player_more_actions.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\menu\\player_more_actions.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_fragment_home.xml.flat",
-        "source": "com.appad.app-main-37:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_cancel_button.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_cancel_button.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_circle_unread_dot.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\circle_unread_dot.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_transaction_history.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_transaction_history.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_back.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_stat_green.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_stat_green.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_headset_outline.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_headset_outline.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_dropdown_menu_modern.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_dropdown_menu_modern.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_timer_status_active.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_timer_status_active.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_membership_history.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_membership_history.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_circle_translucent.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_circle_translucent.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_layout_mini_player.xml.flat",
-        "source": "com.appad.app-main-37:/layout/layout_mini_player.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_bottom_sheet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_artist_payout.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_artist_payout.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_content_top_rounded.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_content_top_rounded.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_stat_card_green.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_stat_card_green.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_playlist_detail.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_playlist_detail.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_wallet.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_wallet.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_comment.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_comment.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_circle_purple.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_circle_purple.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_nav_library.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_nav_library.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_disc.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_disc.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_player_background_gradient.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\player_background_gradient.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_edit_album.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_edit_album.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bottom_nav_background.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bottom_nav_background.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_gradient_overlay.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_gradient_overlay.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_manage_album.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_manage_album.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_circle_unread_dot.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/circle_unread_dot.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_song_item.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_song_item.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_albums.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_albums.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_dialog_sleep_timer.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\dialog_sleep_timer.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_premium_button.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_premium_button.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_admin_menu_card.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_admin_menu_card.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_premium_button.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_premium_button.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_copy.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_copy.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_star.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_admin_header_gradient.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_admin_header_gradient.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_button_cancel_red.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_button_cancel_red.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_heart_outline.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_heart_outline.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_membership_history.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_membership_history.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_wallet_outline.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_wallet_outline.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_gradient_overlay.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_gradient_overlay.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_repeat_modern.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_repeat_modern.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_glass_overlay.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\glass_overlay.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_admin_transactions.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_admin_transactions.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_option_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_option_card.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_admin_song_simple.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_admin_song_simple.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_default_avatar.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\default_avatar.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_button_outline_white.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_button_outline_white.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_songs.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_songs.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_stat_purple.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_stat_purple.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_dialog_custom_alert.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\dialog_custom_alert.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_back_button_fixed.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_back_button_fixed.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_premium_subscribe_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_premium_subscribe_card.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_edit.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_edit.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_wallet_outline.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_wallet_outline.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_bg_circle_white_transparent.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/bg_circle_white_transparent.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_repeat_custom.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_repeat_custom.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_transaction.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_transaction.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_circle_bullet.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\circle_bullet.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_drag_handle.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_drag_handle.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_genre_detail.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_genre_detail.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/drawable_ic_search_unselected.xml.flat",
-        "source": "com.appad.app-main-37:/drawable/ic_search_unselected.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_membership.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_membership.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_purchased_songs.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_purchased_songs.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_deposit.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_deposit.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_item_manage_song.xml.flat",
-        "source": "com.appad.app-main-37:/layout/item_manage_song.xml"
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_lyrics_card.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_lyrics_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_circle_white_transparent.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_circle_white_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_artist_approval.xml.flat",
+        "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_artist_approval.xml"
     }
 ]

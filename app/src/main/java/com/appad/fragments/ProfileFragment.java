@@ -121,7 +121,7 @@ public class ProfileFragment extends Fragment {
         btnAdminDashboard.setOnClickListener(v -> startActivity(new Intent(getContext(), AdminActivity.class)));
         btnApplyArtist.setOnClickListener(v -> handleApplyArtist());
 
-        btnHelp.setOnClickListener(v -> Toast.makeText(getContext(), "Tính năng đang phát triển", Toast.LENGTH_SHORT).show());
+        btnHelp.setOnClickListener(v -> showHelpDialog());
         
         btnLogout.setOnClickListener(v -> handleLogout());
 
@@ -300,6 +300,56 @@ public class ProfileFragment extends Fragment {
         });
         builder.setNegativeButton("Hủy", null);
         builder.show();
+    }
+
+    private void showHelpDialog() {
+        if (getContext() == null) return;
+        View dialogView = LayoutInflater.from(getContext()).inflate(R.layout.dialog_help_support, null);
+        
+        android.app.AlertDialog dialog = new android.app.AlertDialog.Builder(getContext())
+                .setView(dialogView)
+                .create();
+        
+        if (dialog.getWindow() != null) {
+            dialog.getWindow().setBackgroundDrawable(new android.graphics.drawable.ColorDrawable(android.graphics.Color.TRANSPARENT));
+        }
+
+        View btnFacebook = dialogView.findViewById(R.id.btnHelpFacebook);
+        View btnEmail = dialogView.findViewById(R.id.btnHelpEmail);
+        View btnClose = dialogView.findViewById(R.id.btnHelpClose);
+
+        if (btnFacebook != null) {
+            btnFacebook.setOnClickListener(v -> {
+                dialog.dismiss();
+                try {
+                    Intent intent = new Intent(Intent.ACTION_VIEW, android.net.Uri.parse("https://www.facebook.com/share/1JsN4J2huN/"));
+                    startActivity(intent);
+                } catch (Exception e) {
+                    Toast.makeText(getContext(), "Không thể mở liên kết Facebook", Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
+
+        if (btnEmail != null) {
+            btnEmail.setOnClickListener(v -> {
+                dialog.dismiss();
+                try {
+                    Intent intent = new Intent(Intent.ACTION_SENDTO);
+                    intent.setData(android.net.Uri.parse("mailto:"));
+                    intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"nguyensykimbang324@gmail.com"});
+                    intent.putExtra(Intent.EXTRA_SUBJECT, "[APPAD] Yêu cầu hỗ trợ & phản hồi");
+                    startActivity(Intent.createChooser(intent, "Gửi email bằng..."));
+                } catch (Exception e) {
+                    Toast.makeText(getContext(), "Không tìm thấy ứng dụng gửi email", Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
+
+        if (btnClose != null) {
+            btnClose.setOnClickListener(v -> dialog.dismiss());
+        }
+
+        dialog.show();
     }
 
     private void loadStats(Integer userId) {

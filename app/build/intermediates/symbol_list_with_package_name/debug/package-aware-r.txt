@@ -3229,6 +3229,8 @@ drawable ic_disc
 drawable ic_disc_badge
 drawable ic_drag_handle
 drawable ic_edit
+drawable ic_email
+drawable ic_facebook
 drawable ic_headset
 drawable ic_headset_outline
 drawable ic_heart_filled
@@ -3554,6 +3556,9 @@ id btnFavorite
 id btnFollow
 id btnFollowArtist
 id btnHelp
+id btnHelpClose
+id btnHelpEmail
+id btnHelpFacebook
 id btnImport
 id btnImportPlaylist
 id btnJoinMembership
@@ -4902,6 +4907,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_create_notification
 layout dialog_custom_alert
+layout dialog_help_support
 layout dialog_import_playlist
 layout dialog_purchase_confirmation
 layout dialog_report

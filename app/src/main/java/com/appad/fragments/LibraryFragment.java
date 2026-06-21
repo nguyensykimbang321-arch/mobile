@@ -94,6 +94,14 @@ public class LibraryFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onHiddenChanged(boolean hidden) {
+        super.onHiddenChanged(hidden);
+        if (!hidden) {
+            loadData();
+        }
+    }
+
     private void setupPlayerListener() {
         if (playerStatusChangeListener == null) {
             playerStatusChangeListener = new MusicPlayerManager.OnPlayerStatusChangeListener() {

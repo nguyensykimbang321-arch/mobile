@@ -3228,6 +3228,8 @@ int drawable ic_disc 0x7f08013a
 int drawable ic_disc_badge 0x7f08013b
 int drawable ic_drag_handle 0x7f08013c
 int drawable ic_edit 0x7f08013d
+int drawable ic_email 0x7f0801b5
+int drawable ic_facebook 0x7f0801b6
 int drawable ic_headset 0x7f08013e
 int drawable ic_headset_outline 0x7f08013f
 int drawable ic_heart_filled 0x7f080140
@@ -3553,6 +3555,9 @@ int id btnFavorite 0x7f0a00c9
 int id btnFollow 0x7f0a00ca
 int id btnFollowArtist 0x7f0a00cb
 int id btnHelp 0x7f0a00cc
+int id btnHelpClose 0x7f0a0560
+int id btnHelpEmail 0x7f0a0561
+int id btnHelpFacebook 0x7f0a0562
 int id btnImport 0x7f0a00cd
 int id btnImportPlaylist 0x7f0a00ce
 int id btnJoinMembership 0x7f0a00cf
@@ -4901,6 +4906,7 @@ int layout design_text_input_end_icon 0x7f0d0056
 int layout design_text_input_start_icon 0x7f0d0057
 int layout dialog_create_notification 0x7f0d0058
 int layout dialog_custom_alert 0x7f0d0059
+int layout dialog_help_support 0x7f0d00ec
 int layout dialog_import_playlist 0x7f0d005a
 int layout dialog_purchase_confirmation 0x7f0d005b
 int layout dialog_report 0x7f0d005c

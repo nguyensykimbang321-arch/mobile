@@ -1,10 +1,26 @@
+# Gradle files and build outputs
+.gradle/
+build/
+app/build/
+
+# Built artifacts
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# IDEs and Editors
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
 local.properties
+.DS_Store
+
+# Log files
+*.log
+
+# Captures
+/captures
+
+# External native builds
+.externalNativeBuild/
+.cxx/
