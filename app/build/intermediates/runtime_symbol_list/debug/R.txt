@@ -3512,6 +3512,7 @@ int id btnBrowseSongs 0x7f0a009e
 int id btnBuySong 0x7f0a009f
 int id btnCancel 0x7f0a00a0
 int id btnCancelCreate 0x7f0a00a1
+int id btnCancelPremium 0x7f0a0564
 int id btnCancelPurchase 0x7f0a00a2
 int id btnCancelQR 0x7f0a00a3
 int id btnCancelReport 0x7f0a00a4

@@ -151,6 +151,19 @@
                             android:textSize="16sp"
                             android:textStyle="bold" />
                     </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnCancelPremium"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/bg_button_cancel_red"
+                        android:text="HỦY GÓI PREMIUM"
+                        android:textColor="#EF4444"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.05"
+                        app:backgroundTint="@null" />
                 </LinearLayout>
 
                 <!-- Subscribe Card (Shown if Not Premium) -->

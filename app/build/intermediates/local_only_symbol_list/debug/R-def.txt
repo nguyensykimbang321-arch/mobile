@@ -234,6 +234,7 @@ id btnBrowseSongs
 id btnBuySong
 id btnCancel
 id btnCancelCreate
+id btnCancelPremium
 id btnCancelPurchase
 id btnCancelQR
 id btnCancelReport
