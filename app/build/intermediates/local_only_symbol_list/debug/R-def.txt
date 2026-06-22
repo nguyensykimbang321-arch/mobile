@@ -19,6 +19,7 @@ color card_background
 color glass_white
 color glass_white_heavy
 color green_500
+color notification_badge_red
 color primary
 color primaryDark
 color primaryLight
@@ -68,6 +69,7 @@ drawable bg_mini_player
 drawable bg_mini_player_collapsed
 drawable bg_mini_player_collapsed_premium
 drawable bg_mini_player_premium
+drawable bg_notification_badge
 drawable bg_option_card
 drawable bg_play_gradient
 drawable bg_play_gradient_circle
@@ -983,6 +985,7 @@ id txtWithdrawalAmount
 id txtWithdrawalStatus
 id unreadDot
 id viewIconBg
+id viewNotificationBadge
 id viewPulseEffect
 id viewTypeIndicator
 id walletCard

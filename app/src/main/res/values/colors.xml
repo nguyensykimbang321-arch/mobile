@@ -29,4 +29,5 @@
     <color name="transparent">#00000000</color>
     
     <color name="border_color">#33FFFFFF</color>
+    <color name="notification_badge_red">#EF4444</color>
 </resources>

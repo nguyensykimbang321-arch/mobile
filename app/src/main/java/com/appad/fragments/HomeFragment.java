@@ -46,6 +46,7 @@ public class HomeFragment extends Fragment {
     private TabLayout tabLayout;
     private androidx.swiperefreshlayout.widget.SwipeRefreshLayout swipeRefreshHome;
     private android.widget.ProgressBar pbMainList;
+    private View viewNotificationBadge;
     private boolean isDataLoaded = false;
     private MusicPlayerManager.OnPlayerStatusChangeListener playerStatusChangeListener;
     private android.os.Handler autoScrollHandler = new android.os.Handler(android.os.Looper.getMainLooper());
@@ -97,6 +98,7 @@ public class HomeFragment extends Fragment {
     public void onResume() {
         super.onResume();
         startAutoScroll();
+        checkUnreadNotifications();
     }
 
     @Override
@@ -226,6 +228,7 @@ public class HomeFragment extends Fragment {
         tabLayout = view.findViewById(R.id.tabLayout);
         swipeRefreshHome = view.findViewById(R.id.swipeRefreshHome);
         pbMainList = view.findViewById(R.id.pbMainList);
+        viewNotificationBadge = view.findViewById(R.id.viewNotificationBadge);
 
         if (swipeRefreshHome != null) {
             swipeRefreshHome.setColorSchemeColors(getResources().getColor(R.color.accent));
@@ -560,5 +563,32 @@ public class HomeFragment extends Fragment {
         if (isAdded()) {
             loadData();
         }
+    }
+
+    private void checkUnreadNotifications() {
+        RetrofitClient.getApiService().getNotifications().enqueue(new Callback<Map<String, Object>>() {
+            @Override
+            public void onResponse(Call<Map<String, Object>> call, Response<Map<String, Object>> response) {
+                if (!isAdded() || viewNotificationBadge == null) return;
+                if (response.isSuccessful() && response.body() != null) {
+                    try {
+                        Map<String, Object> dataObj = (Map<String, Object>) response.body().get("data");
+                        if (dataObj != null) {
+                            Object unreadObj = dataObj.get("unread_count");
+                            int unreadCount = 0;
+                            if (unreadObj instanceof Number) unreadCount = ((Number) unreadObj).intValue();
+                            viewNotificationBadge.setVisibility(unreadCount > 0 ? View.VISIBLE : View.GONE);
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<Map<String, Object>> call, Throwable t) {
+                // Giữ trạng thái badge hiện tại nếu lỗi mạng
+            }
+        });
     }
 }

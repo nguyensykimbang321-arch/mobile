@@ -2102,6 +2102,7 @@ color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
+color notification_badge_red
 color notification_icon_bg_color
 color notification_material_background_media_default_color
 color primary
@@ -3067,6 +3068,7 @@ drawable bg_mini_player
 drawable bg_mini_player_collapsed
 drawable bg_mini_player_collapsed_premium
 drawable bg_mini_player_premium
+drawable bg_notification_badge
 drawable bg_option_card
 drawable bg_play_gradient
 drawable bg_play_gradient_circle
@@ -4707,6 +4709,7 @@ id vertical
 id vertical_only
 id video_decoder_gl_surface_view
 id viewIconBg
+id viewNotificationBadge
 id viewPulseEffect
 id viewTypeIndicator
 id view_offset_helper
