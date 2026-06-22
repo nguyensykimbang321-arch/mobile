@@ -395,7 +395,7 @@ public class HomeFragment extends Fragment {
         Call<Map<String, Object>> call;
         if (position == 0) call = RetrofitClient.getApiService().getLatestSongs(PAGE_SIZE, currentOffset);
         else if (position == 1) call = RetrofitClient.getApiService().getRecommendedSongs(PAGE_SIZE, currentOffset);
-        else call = RetrofitClient.getApiService().getTrendingSongs(PAGE_SIZE, currentOffset);
+        else call = RetrofitClient.getApiService().getPersonalFavoriteSongs(PAGE_SIZE, currentOffset);
 
         call.enqueue(new Callback<Map<String, Object>>() {
             @Override

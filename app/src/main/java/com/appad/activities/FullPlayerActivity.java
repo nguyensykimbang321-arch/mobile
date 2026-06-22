@@ -462,12 +462,14 @@ public class FullPlayerActivity extends AppCompatActivity {
         btnShuffle.setOnClickListener(v -> {
             MusicPlayerManager.getInstance().toggleShuffle();
             updateShuffleUI();
+            updateRepeatUI();
         });
         updateShuffleUI();
 
         btnRepeat.setOnClickListener(v -> {
             MusicPlayerManager.getInstance().toggleRepeat();
             updateRepeatUI();
+            updateShuffleUI();
         });
         updateRepeatUI();
 
@@ -1185,13 +1187,13 @@ public class FullPlayerActivity extends AppCompatActivity {
                 btnRepeat.setBackgroundResource(R.drawable.bg_back_button_fixed);
                 btnRepeat.setColorFilter(android.graphics.Color.WHITE);
                 break;
-            case 1: // Repeat All
-                btnRepeat.setImageResource(R.drawable.ic_repeat_modern);
+            case 1: // Repeat One
+                btnRepeat.setImageResource(R.drawable.ic_repeat_one_modern);
                 btnRepeat.setBackgroundResource(R.drawable.bg_circle_purple);
                 btnRepeat.setColorFilter(android.graphics.Color.WHITE);
                 break;
-            case 2: // Repeat One
-                btnRepeat.setImageResource(R.drawable.ic_repeat_one_modern);
+            case 2: // Repeat All
+                btnRepeat.setImageResource(R.drawable.ic_repeat_modern);
                 btnRepeat.setBackgroundResource(R.drawable.bg_circle_purple);
                 btnRepeat.setColorFilter(android.graphics.Color.WHITE);
                 break;

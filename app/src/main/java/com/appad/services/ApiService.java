@@ -127,6 +127,9 @@ public interface ApiService {
     @GET("api/songs/recommended")
     Call<Map<String, Object>> getRecommendedSongs(@Query("limit") int limit, @Query("offset") int offset);
 
+    @GET("api/songs/personal-favorites")
+    Call<Map<String, Object>> getPersonalFavoriteSongs(@Query("limit") int limit, @Query("offset") int offset);
+
     @GET("api/wallet/purchased-songs")
     Call<Map<String, Object>> getPurchasedSongs();
 

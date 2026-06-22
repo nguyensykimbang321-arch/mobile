@@ -85,17 +85,10 @@ public class HistoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             int seconds = totalDuration % 60;
             vh.txtDuration.setText(String.format("%d:%02d", minutes, seconds));
             
-            if (completed == count && count > 0) {
-                vh.txtStatusSeparator.setVisibility(View.VISIBLE);
-                vh.imgStatus.setVisibility(View.VISIBLE);
-                vh.txtHistoryStatus.setVisibility(View.VISIBLE);
-                vh.txtHistoryStatus.setText("Hoàn thành");
-                vh.imgStatus.setImageResource(android.R.drawable.checkbox_on_background);
-            } else {
-                vh.txtStatusSeparator.setVisibility(View.GONE);
-                vh.imgStatus.setVisibility(View.GONE);
-                vh.txtHistoryStatus.setVisibility(View.GONE);
-            }
+            // Ẩn nhãn Hoàn thành theo yêu cầu của user
+            vh.txtStatusSeparator.setVisibility(View.GONE);
+            vh.imgStatus.setVisibility(View.GONE);
+            vh.txtHistoryStatus.setVisibility(View.GONE);
 
             Glide.with(context)
                     .load(ImageUrlUtils.fixUrl((String) songMap.get("cover_url")))

@@ -217,7 +217,7 @@
                                 android:id="@+id/txtMembershipTitle"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Fan cứng Nghệ sĩ"
+                                android:text="Hội viên Nghệ sĩ"
                                 android:textColor="#E0E0E0"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />

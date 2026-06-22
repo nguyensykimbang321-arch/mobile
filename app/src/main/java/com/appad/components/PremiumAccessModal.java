@@ -201,12 +201,12 @@ public class PremiumAccessModal extends BottomSheetDialogFragment {
                                 TextView txtMPrice = getView().findViewById(R.id.txtMembershipPrice);
 
                                 if (btnMembership != null) {
-                                    // Rule: Fan cứng cũng không được tải nhạc. Ẩn nếu ở DownloadMode
+                                    // Rule: Hội viên cũng không được tải nhạc. Ẩn nếu ở DownloadMode
                                     if (isDownloadMode) {
                                         btnMembership.setVisibility(View.GONE);
                                     } else {
                                         btnMembership.setVisibility(View.VISIBLE);
-                                        if (txtMTitle != null) txtMTitle.setText("Fan cứng " + song.getArtistName());
+                                        if (txtMTitle != null) txtMTitle.setText("Hội viên " + song.getArtistName());
                                         if (txtMPrice != null) txtMPrice.setText(formatCurrency(price) + "/" + days + " ngày");
                                         btnMembership.setOnClickListener(v -> showConfirmation("membership", "Hội viên " + song.getArtistName(), price));
                                     }

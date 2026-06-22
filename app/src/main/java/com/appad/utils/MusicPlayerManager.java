@@ -36,7 +36,7 @@ public class MusicPlayerManager {
 
     // Shuffle & Repeat
     private boolean isShuffle = false;
-    private int repeatMode = 0; // 0: Off, 1: Repeat All, 2: Repeat One
+    private int repeatMode = 0; // 0: Off, 1: Repeat One, 2: Repeat All
     private boolean isMiniPlayerMinimized = false;
     private boolean stopAfterCurrent = false;
 
@@ -62,7 +62,7 @@ public class MusicPlayerManager {
                 int dur = musicService.getDuration();
 
                 // Auto-next 1.5s before end
-                if (dur > 5000 && pos >= (dur - 1500) && (currentSong != null && !currentSong.getSongId().equals(lastAutoNextSongId))) {
+                if (dur > 5000 && pos >= (dur - 1500) && (currentSong != null && !currentSong.getSongId().equals(lastAutoNextSongId)) && repeatMode != 1) {
                     lastAutoNextSongId = currentSong.getSongId();
                     android.util.Log.d("MusicPlayerManager", "Song almost finished, checking flags...");
                     
@@ -415,6 +415,8 @@ public class MusicPlayerManager {
         if (isShuffle) {
             updateInteraction();
             shufflePlaylist();
+            repeatMode = 0; // Tắt Repeat khi bật Shuffle
+            syncRepeatMode();
         } else {
             // Khôi phục playlist gốc
             Song current = currentSong;
@@ -442,7 +444,17 @@ public class MusicPlayerManager {
     // ========== REPEAT LOGIC ==========
     public void toggleRepeat() {
         updateInteraction();
-        repeatMode = (repeatMode + 1) % 3; // 0: Off, 1: Repeat All, 2: Repeat One
+        repeatMode = (repeatMode + 1) % 3; // 0: Off, 1: Repeat One, 2: Repeat All
+        if (repeatMode != 0) {
+            if (isShuffle) {
+                isShuffle = false; // Tắt Shuffle khi bật Repeat
+                // Khôi phục lại playlist gốc
+                Song current = currentSong;
+                playlist = new ArrayList<>(originalPlaylist);
+                currentIndex = playlist.indexOf(current);
+                if (currentIndex < 0) currentIndex = 0;
+            }
+        }
         syncRepeatMode();
     }
 
@@ -510,7 +522,7 @@ public class MusicPlayerManager {
 
         // In "Repeat One" mode, manual "Next" should go to the next song,
         // while automatic "Next" (from service) should replay current.
-        if (!isManual && repeatMode == 2) {
+        if (!isManual && repeatMode == 1) {
             playCurrentIndex();
             return;
         }
@@ -521,7 +533,7 @@ public class MusicPlayerManager {
         do {
             nextIdx++;
             if (nextIdx >= playlist.size()) {
-                if (isManual || repeatMode == 1) { // Manual click or Repeat All wraps around
+                if (isManual || repeatMode == 2) { // Manual click or Repeat All wraps around
                     nextIdx = 0;
                 } else {
                     // Tự động load thêm nếu có listener và đang ở cuối danh sách

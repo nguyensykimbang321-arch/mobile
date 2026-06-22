@@ -365,7 +365,7 @@ public class ArtistDetailActivity extends AppCompatActivity {
                     boolean active = Boolean.TRUE.equals(response.body().get("active"));
                     if (active) {
                         btnJoinMembership.setVisibility(View.VISIBLE);
-                        btnJoinMembership.setText("⭐ Bạn là Fan Cứng");
+                        btnJoinMembership.setText("⭐ Bạn là Hội viên");
                         btnJoinMembership.setEnabled(false);
                         btnJoinMembership.setBackgroundTintList(android.content.res.ColorStateList.valueOf(Color.parseColor("#4CAF50")));
                         btnJoinMembership.setTextColor(Color.WHITE);
@@ -382,7 +382,7 @@ public class ArtistDetailActivity extends AppCompatActivity {
     private void updateMembershipUI() {
         if (membershipPrice > 0) {
             btnJoinMembership.setVisibility(View.VISIBLE);
-            btnJoinMembership.setText("⭐ Fan Cứng (" + formatCurrency(membershipPrice) + ")");
+            btnJoinMembership.setText("⭐ Hội viên (" + formatCurrency(membershipPrice) + ")");
             btnJoinMembership.setEnabled(true);
         } else {
             btnJoinMembership.setVisibility(View.GONE);
@@ -435,15 +435,15 @@ public class ArtistDetailActivity extends AppCompatActivity {
         if (user != null && user.getIsPremium() != null && user.getIsPremium() == 1) {
             String expiry = formatExpiryDate(user.getPremiumExpiry());
             message = "Bạn đã có quyền truy cập tất cả nhạc của nghệ sĩ này đến ngày " + expiry + " (do tài khoản của bạn là Premium).\n\n"
-                    + "Bạn có thực sự muốn đăng ký gói Fan Cứng " + membershipDuration + " ngày với giá " + formatCurrency(membershipPrice) + "?\n\n"
+                    + "Bạn có thực sự muốn đăng ký gói Hội viên " + membershipDuration + " ngày với giá " + formatCurrency(membershipPrice) + "?\n\n"
                     + "Số dư hiện tại: " + formatCurrency(userBalance);
         } else {
-            message = "Bạn muốn đăng ký gói Fan Cứng " + membershipDuration + " ngày với giá " + formatCurrency(membershipPrice) + "?\n\n"
+            message = "Bạn muốn đăng ký gói Hội viên " + membershipDuration + " ngày với giá " + formatCurrency(membershipPrice) + "?\n\n"
                     + "Số dư hiện tại: " + formatCurrency(userBalance);
         }
 
         androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(this);
-        builder.setTitle("Tham gia Fan Cứng");
+        builder.setTitle("Tham gia Hội viên");
         builder.setMessage(message);
 
         if (userBalance >= membershipPrice) {
@@ -487,7 +487,7 @@ public class ArtistDetailActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<Map<String, Object>> call, Response<Map<String, Object>> response) {
                 if (response.isSuccessful()) {
-                    Toast.makeText(ArtistDetailActivity.this, "Chào mừng bạn gia nhập Fan Cứng!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ArtistDetailActivity.this, "Chào mừng bạn gia nhập Hội viên!", Toast.LENGTH_LONG).show();
                     checkMembership();
                 } else {
                     String errorMsg = "Giao dịch thất bại";

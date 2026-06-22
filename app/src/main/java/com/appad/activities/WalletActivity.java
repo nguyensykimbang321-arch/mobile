@@ -30,7 +30,7 @@ import retrofit2.Response;
 
 public class WalletActivity extends AppCompatActivity {
 
-    private TextView txtBalance, txtTotalDeposited, txtTotalSpent;
+    private TextView txtBalance;
     private RecyclerView rvRecent;
     private SwipeRefreshLayout swipeRefresh;
     private TransactionAdapter adapter;
@@ -51,8 +51,6 @@ public class WalletActivity extends AppCompatActivity {
 
     private void initViews() {
         txtBalance = findViewById(R.id.txtBalance);
-        txtTotalDeposited = findViewById(R.id.txtTotalDeposited);
-        txtTotalSpent = findViewById(R.id.txtTotalSpent);
         rvRecent = findViewById(R.id.rvRecentTransactions);
         swipeRefresh = findViewById(R.id.swipeRefreshWallet);
 
@@ -87,24 +85,6 @@ public class WalletActivity extends AppCompatActivity {
             @Override public void onFailure(Call<Map<String, Object>> call, Throwable t) {}
         });
 
-        // Load Stats
-        apiService.getWalletStats().enqueue(new Callback<Map<String, Object>>() {
-            @Override
-            public void onResponse(Call<Map<String, Object>> call, Response<Map<String, Object>> response) {
-                if (response.isSuccessful() && response.body() != null) {
-                    Map<String, Object> data = (Map<String, Object>) response.body().get("data");
-                    if (data != null) {
-                        Double deposited = ((Number) (data.get("total_deposited") != null ? data.get("total_deposited") : 0.0)).doubleValue();
-                        Double spent = ((Number) (data.get("total_spent") != null ? data.get("total_spent") : 0.0)).doubleValue();
-                        Double sub = ((Number) (data.get("total_subscription") != null ? data.get("total_subscription") : 0.0)).doubleValue();
-                        
-                        txtTotalDeposited.setText(String.format("%,.0fđ", deposited));
-                        txtTotalSpent.setText(String.format("%,.0fđ", spent + sub));
-                    }
-                }
-            }
-            @Override public void onFailure(Call<Map<String, Object>> call, Throwable t) {}
-        });
 
         // Load Recent Transactions
         apiService.getTransactionHistory().enqueue(new Callback<Map<String, Object>>() {

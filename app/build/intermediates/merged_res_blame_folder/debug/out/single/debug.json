@@ -220,6 +220,10 @@
         "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_button_gradient_orange.xml"
     },
     {
+        "merged": "com.appad.app-merged_res-35:/layout_fragment_profile.xml.flat",
+        "source": "com.appad.app-main-37:/layout/fragment_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_premium_gradient_card.xml.flat",
         "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\drawable\\bg_premium_gradient_card.xml"
     },
@@ -364,10 +368,6 @@
         "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_users.xml"
     },
     {
-        "merged": "com.appad.app-merged_res-35:/layout_activity_premium.xml.flat",
-        "source": "com.appad.app-main-37:/layout/activity_premium.xml"
-    },
-    {
         "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_fragment_profile.xml.flat",
         "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\fragment_profile.xml"
     },
@@ -442,6 +442,10 @@
     {
         "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_activity_admin_analytics.xml.flat",
         "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\activity_admin_analytics.xml"
+    },
+    {
+        "merged": "com.appad.app-merged_res-35:/layout_layout_premium_access_modal.xml.flat",
+        "source": "com.appad.app-main-37:/layout/layout_premium_access_modal.xml"
     },
     {
         "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_bg_bottom_sheet_premium.xml.flat",
@@ -558,6 +562,10 @@
     {
         "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\layout_item_admin_withdrawal.xml.flat",
         "source": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-main-37:\\layout\\item_admin_withdrawal.xml"
+    },
+    {
+        "merged": "com.appad.app-merged_res-35:/layout_activity_artist_detail.xml.flat",
+        "source": "com.appad.app-main-37:/layout/activity_artist_detail.xml"
     },
     {
         "merged": "C:\\Users\\BANG\\.gradle\\daemon\\8.2.1\\com.appad.app-merged_res-35:\\drawable_ic_add.xml.flat",

@@ -4671,7 +4671,6 @@ int id txtTabTitle 0x7f0a0520
 int id txtTitle 0x7f0a0521
 int id txtTopSong 0x7f0a0522
 int id txtTopUpNeeded 0x7f0a0523
-int id txtTotalDeposited 0x7f0a0524
 int id txtTotalDisbursed 0x7f0a0525
 int id txtTotalDuration 0x7f0a0526
 int id txtTotalPaid 0x7f0a0527
@@ -4679,7 +4678,6 @@ int id txtTotalPlays 0x7f0a0528
 int id txtTotalPool 0x7f0a0529
 int id txtTotalRevenue 0x7f0a052a
 int id txtTotalReviews 0x7f0a052b
-int id txtTotalSpent 0x7f0a052c
 int id txtTransactionAmount 0x7f0a052d
 int id txtTransactionDate 0x7f0a052e
 int id txtTransactionStatus 0x7f0a052f

@@ -228,11 +228,11 @@ public class MusicService extends Service {
     public void setNativeRepeatMode(int mode) {
         if (exoPlayer == null) return;
         switch (mode) {
-            case 1: // Repeat All
-                exoPlayer.setRepeatMode(Player.REPEAT_MODE_ALL);
-                break;
-            case 2: // Repeat One
+            case 1: // Repeat One
                 exoPlayer.setRepeatMode(Player.REPEAT_MODE_ONE);
+                break;
+            case 2: // Repeat All
+                exoPlayer.setRepeatMode(Player.REPEAT_MODE_ALL);
                 break;
             default:
                 exoPlayer.setRepeatMode(Player.REPEAT_MODE_OFF);
